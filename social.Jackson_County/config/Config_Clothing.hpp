@@ -1,4 +1,4 @@
-/*
+1/*
 *    ARRAY FORMAT:
 *        0: STRING (Classname)
 *        1: STRING (Display Name, leave as "" for default)
@@ -279,12 +279,12 @@ class Clothing {
 			{ "kio_vfv_mask", "", 25, "" },
 
 
-			{ "Masque_Santa","Scarry Santa", 25, "" },
-			{ "Masque_archNemesis","Monster Maske", 25, "" },
-			{ "Masque_Smiley","Scarry Clown", 25, "" },
-			{ "Masque_Religieuse","Nonnen Maske", 25, "" },
-			{ "Masque_Macrilleuse","Scarry Clown (Klein)", 25, "" },
-			{ "Masque_Unic","Einhorn Maske", 25, "" },
+			{ "Masque_Santa", "Scarry Santa", 25, "" },
+			{ "Masque_archNemesis", "Monster Maske", 25, "" },
+			{ "Masque_Smiley", "Scarry Clown", 25, "" },
+			{ "Masque_Religieuse", "Nonnen Maske", 25, "" },
+			{ "Masque_Macrilleuse", "Scarry Clown (Klein)", 25, "" },
+			{ "Masque_Unic", "Einhorn Maske", 25, "" },
 			
 			{ "Gorb_Gingerbread1", "", 50, "" },
 			{ "Gorb_AngryGingerbread3", "", 50, "" },
@@ -439,7 +439,6 @@ class Clothing {
         vests[] = {
             { "NONE", "Remove Vest", 0, "" },
 			{ "V_BandollierB_cbr", "", 100, "" },
-			{ "V_Press_F", "", 100, "" },
 			{ "V_Rangemaster_belt", "", 100, "" },
 			{ "V_BandollierB_khk", "", 100, "" },
 			{ "V_BandollierB_oli", "", 100, "" },
@@ -584,60 +583,74 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, "" },
-            {"mr_pol_cloth_state_c_1","State Recruit", 10, "call life_coplevel >= 1" },
-            {"mr_pol_cloth_lvpd_c_1","LVPD Recruit", 10, "call life_coplevel >= 1" },
+			{ "TCG_PDAV", "Polizei Pilotenuniform", 10, "call life_coplevel >= 1" },
+            { "mr_pol_cloth_state_c_1", "State Recruit", 10, "call life_coplevel >= 1" },
+            { "mr_pol_cloth_lvpd_c_1", "LVPD Recruit", 10, "call life_coplevel >= 1" },
+			{ "LVPD_rang1", "", 10, "call life_coplevel >= 1" },
 		
-            {"mr_pol_cloth_state_c_2","State Officer", 15, "call life_coplevel >= 2" },
-            {"mr_pol_cloth_lvpd_c_2","LVPD Officer", 15, "call life_coplevel >= 2" },
+            { "mr_pol_cloth_state_c_2", "State Officer", 15, "call life_coplevel >= 2" },
+            { "mr_pol_cloth_lvpd_c_2", "LVPD Officer", 15, "call life_coplevel >= 2" },
+			{ "LVPD_rang2", "", 10, "call life_coplevel >= 2" },
 		
-            {"mr_pol_cloth_state_c_3","State Detective", 15, "call life_coplevel >= 3" },
-            {"mr_pol_cloth_lvpd_c_3","LVPD Detective", 15, "call life_coplevel >= 3" },
+            { "mr_pol_cloth_state_c_3", "State Detective", 15, "call life_coplevel >= 3" },
+            { "mr_pol_cloth_lvpd_c_3", "LVPD Detective", 15, "call life_coplevel >= 3" },
+			{ "LVPD_rang3", "", 10, "call life_coplevel >= 3" },
 		
-            {"mr_pol_cloth_state_c_4","State Sergeant", 15, "call life_coplevel >= 4" },
-            {"mr_pol_cloth_lvpd_c_4","LVPD Sergeant", 15, "call life_coplevel >= 4" },
+            { "mr_pol_cloth_state_c_4", "State Sergeant", 15, "call life_coplevel >= 4" },
+            { "mr_pol_cloth_lvpd_c_4", "LVPD Sergeant", 15, "call life_coplevel >= 4" },
+			{ "LVPD_rang4", "", 10, "call life_coplevel >= 4" },
 		
-            {"mr_pol_cloth_state_c_5","State 1st Sergeant", 15, "call life_coplevel >= 5" },
-            {"mr_pol_cloth_lvpd_c_5","LVPD 1st Sergeant", 15, "call life_coplevel >= 5" },
+            { "mr_pol_cloth_state_c_5", "State 1st Sergeant", 15, "call life_coplevel >= 5" },
+            { "mr_pol_cloth_lvpd_c_5", "LVPD 1st Sergeant", 15, "call life_coplevel >= 5" },
+			{ "LVPD_rang5", "", 10, "call life_coplevel >= 5" },
 		
-            {"mr_pol_cloth_state_c_6","State Lieutenant", 25, "call life_coplevel >= 6" },
-            {"mr_pol_cloth_lvpd_c_6","LVPD Lieutenant", 25, "call life_coplevel >= 6" },
+            { "mr_pol_cloth_state_c_6", "State Lieutenant", 25, "call life_coplevel >= 6" },
+            { "mr_pol_cloth_lvpd_c_6", "LVPD Lieutenant", 25, "call life_coplevel >= 6" },
+			{ "LVPD_rang6", "", 10, "call life_coplevel >= 6" },
 		
-            {"mr_pol_cloth_state_c_7","State 1st Lieutenant", 25, "call life_coplevel >= 7" },
-            {"mr_pol_cloth_lvpd_c_7","LVPD 1st Lieutenant", 25, "call life_coplevel >= 7" },
+            { "mr_pol_cloth_state_c_7", "State 1st Lieutenant", 25, "call life_coplevel >= 7" },
+            { "mr_pol_cloth_lvpd_c_7", "LVPD 1st Lieutenant", 25, "call life_coplevel >= 7" },
+			{ "LVPD_rang7", "", 10, "call life_coplevel >= 7" },
 		
-            {"mr_pol_cloth_state_c_8","State Captain", 30, "call life_coplevel >= 8" },
-            {"mr_pol_cloth_lvpd_c_8","LVPD Captain", 30, "call life_coplevel >= 8" },
+            { "mr_pol_cloth_state_c_8", "State Captain", 30, "call life_coplevel >= 8" },
+            { "mr_pol_cloth_lvpd_c_8", "LVPD Captain", 30, "call life_coplevel >= 8" },
+			{ "LVPD_rang8", "", 10, "call life_coplevel >= 8" },
 		
-            {"mr_pol_cloth_state_c_9","State Commander", 30, "call life_coplevel >= 9" },
-            {"mr_pol_cloth_lvpd_c_9","LVPD Commander", 30, "call life_coplevel >= 9" },
+            { "mr_pol_cloth_state_c_9", "State Commander", 30, "call life_coplevel >= 9" },
+            { "mr_pol_cloth_lvpd_c_9", "LVPD Commander", 30, "call life_coplevel >= 9" },
+			{ "LVPD_rang9", "", 10, "call life_coplevel >= 9" },
 		
-            {"mr_pol_cloth_state_c_10","State Dep. Chief",, 30, "call life_coplevel >= 10" },
-            {"mr_pol_cloth_lvpd_c_10","LVPD Dep. Chief",, 30, "call life_coplevel >= 10" },
+            { "mr_pol_cloth_state_c_10", "State Dep. Chief", 30, "call life_coplevel >= 10" },
+            { "mr_pol_cloth_lvpd_c_10", "LVPD Dep. Chief", 30, "call life_coplevel >= 10" },
+			{ "LVPD_rang10", "", 10, "call life_coplevel >= 10" },
 
-            {"mr_pol_cloth_state_c_11","State Ast. Chief",, 30, "call life_coplevel >= 11" },
-            {"mr_pol_cloth_lvpd_c_11","LVPD Ast. Chief",, 30, "call life_coplevel >= 11" },
+            { "mr_pol_cloth_state_c_11", "State Ast. Chief", 30, "call life_coplevel >= 11" },
+            { "mr_pol_cloth_lvpd_c_11", "LVPD Ast. Chief", 30, "call life_coplevel >= 11" },
+			{ "LVPD_rang11", "", 10, "call life_coplevel >= 11" },
 		
-            {"mr_pol_cloth_state_c_12","State Chief",, 30, "call life_coplevel >= 12" },
-            {"mr_pol_cloth_lvpd_c_12","LVPD Chief",, 30, "call life_coplevel >= 12" },
+            { "mr_pol_cloth_state_c_12", "State Chief", 30, "call life_coplevel >= 12" },
+            { "mr_pol_cloth_lvpd_c_12", "LVPD Chief", 30, "call life_coplevel >= 12" },
+			{ "LVPD_rang12", "", 10, "call life_coplevel >= 12" },
 		
-            {"lvpd_rang13","Commissioner Uniformen",, 30, "call life_coplevel >= 13" },
-            {"mr_pol_cloth_state_c_13","State Commissioner",, 30, "call life_coplevel >= 13" },
-            {"mr_pol_cloth_lvpd_c_13","LVPD Commissioner",, 30, "call life_coplevel >= 13" },
+            { "lvpd_rang13", "Commissioner Uniformen", 30, "call life_coplevel >= 13" },
+            { "mr_pol_cloth_state_c_13", "State Commissioner", 30, "call life_coplevel >= 13" },
+            { "mr_pol_cloth_lvpd_c_13", "LVPD Commissioner", 30, "call life_coplevel >= 13" },
 			
-            {"Sheriff_rang12","Frauen Uniformen",, 30, "call life_coplevel >= 1" },
-            {"EF_FEM_4_3","Frauenkleidung",, 30, "call life_coplevel >= 1" },
-            {"EF_FEM_4_5","Frauenkleidung",, 30, "call life_coplevel >= 1" },
-            {"EF_FEM_3_5","Frauenkleidung",, 30, "call life_coplevel >= 1" },
-            {"EF_FEM_4_2","Frauenkleidung",, 30, "call life_coplevel >= 1" }
+            { "Sheriff_rang12", "Frauen Uniformen", 30, "call life_coplevel >= 1" },
+            { "EF_FEM_4_3", "Frauenkleidung", 30, "call life_coplevel >= 1" },
+            { "EF_FEM_4_5", "Frauenkleidung", 30, "call life_coplevel >= 1" },
+            { "EF_FEM_3_5", "Frauenkleidung", 30, "call life_coplevel >= 1" },
+            { "EF_FEM_4_2", "Frauenkleidung", 30, "call life_coplevel >= 1" }
 				
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, "" },
+			{ "AM_LVPDHAT", "LVPD Mütze", 50, "" },
             { "H_Beret_blk", "", 65, "" },
             { "H_Beret_02", "", 50, "" },
             { "H_Beret_Colonel", "", 50, "" },
             { "rds_police_cap", "", 50, "" },
-            { "TAC_K6C", "", 125, "" }			
+            { "TAC_K6C", "", 125, "" }
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, "" },
@@ -658,6 +671,7 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, "" },
+			{ "S_LVPD", "", 200, "call life_coplevel >= 1" },
 			{ "TFO_TACVEST_POLICE", "", 265, "call life_coplevel >= 1" },
 			{ "DAI_VEST_BLACK", "", 265, "call life_coplevel >= 1" },
 			{ "TAC_V_tacv1_P2", "", 265, "call life_coplevel >= 1" },
@@ -704,7 +718,7 @@ class Clothing {
 			{ "EF_HMFBI_1", "FBI Importware ", 30, "" },
 			
 			{ "U_BasicBodyICE123", "", 125, "" },
-			{ "taxi_uni","Taxi Uniform", 25, "" },
+			{ "taxi_uni", "Taxi Uniform", 25, "" },
 			{ "HI1", "", 25, "" },
 			{ "RastaCiv", "", 25, "" },
 			{ "vacationshirt_uni", "", 25, "" },
@@ -877,10 +891,10 @@ class Clothing {
 			{ "TRYK_ZARATAKI2", "", 50, "" },
 			{ "TRYK_ZARATAKI3", "", 50, "" },
 
-			{ "TRYK_U_B_BLK","Biker-Jacke (Schwarz)", 50, "" },
-			{ "TRYK_U_B_BLK_Tshirt","Biker-Jacke (Schwarz,kurz)", 50, "" },
-			{ "TRYK_U_B_BLKBLK_CombatUniform","Biker-Kleidung (Schwarz)", 50, "" },
-			{ "TRYK_U_B_BLKBLK_R_CombatUniform","Biker-Kleidung (Schwarz,kurz)", 50, "" },
+			{ "TRYK_U_B_BLK", "Biker-Jacke (Schwarz)", 50, "" },
+			{ "TRYK_U_B_BLK_Tshirt", "Biker-Jacke (Schwarz,kurz)", 50, "" },
+			{ "TRYK_U_B_BLKBLK_CombatUniform", "Biker-Kleidung (Schwarz)", 50, "" },
+			{ "TRYK_U_B_BLKBLK_R_CombatUniform", "Biker-Kleidung (Schwarz,kurz)", 50, "" },
 
 			{ "U_IG_Guerilla1_1", "", 50, "" },
 			{ "U_I_G_Story_Protagonist_F", "", 50, "" },
@@ -1241,9 +1255,9 @@ class Clothing {
 			{ "U_O_GhillieSuit", "", 150, "" },
 			{ "U_GhillieSuit_E", "", 150, "" },
 			{ "U_B_GhillieSuit", "", 150, "" },
-			{ "U_I_FullGhillie_ard","Vollst. Ghillie (Trocken)", 200, "" },
-			{ "U_I_FullGhillie_sard","Wookie-Anzug (Halbtrocken)", 200, "" },
-			{ "U_I_FullGhillie_lsh","Wookie-Anzug (Grün)", 200, "" },
+			{ "U_I_FullGhillie_ard", "Vollst. Ghillie (Trocken)", 200, "" },
+			{ "U_I_FullGhillie_sard", "Wookie-Anzug (Halbtrocken)", 200, "" },
+			{ "U_I_FullGhillie_lsh", "Wookie-Anzug (Grün)", 200, "" },
 
 			{ "KAEL_SUITS_BR_Judge", "", 250, "" },
 			{ "KAEL_SUITS_BLK_F", "", 250, "" },
@@ -1436,12 +1450,12 @@ class Clothing {
 			{ "kio_vfv_mask", "", 25, "" },
 
 
-			{ "Masque_Santa","Scarry Santa", 25, "" },
-			{ "Masque_archNemesis","Monster Maske", 25, "" },
-			{ "Masque_Smiley","Scarry Clown", 25, "" },
-			{ "Masque_Religieuse","Nonnen Maske", 25, "" },
-			{ "Masque_Macrilleuse","Scarry Clown (Klein)", 25, "" },
-			{ "Masque_Unic","Einhorn Maske", 25, "" },
+			{ "Masque_Santa", "Scarry Santa", 25, "" },
+			{ "Masque_archNemesis", "Monster Maske", 25, "" },
+			{ "Masque_Smiley", "Scarry Clown", 25, "" },
+			{ "Masque_Religieuse", "Nonnen Maske", 25, "" },
+			{ "Masque_Macrilleuse", "Scarry Clown (Klein)", 25, "" },
+			{ "Masque_Unic", "Einhorn Maske", 25, "" },
 			
 			{ "Gorb_Gingerbread1", "", 50, "" },
 			{ "Gorb_AngryGingerbread3", "", 50, "" },
@@ -1542,8 +1556,8 @@ class Clothing {
 			{ "H_Hat_Face_Wrap_Olive", "", 25, "" },
 			{ "H_Hat_Face_Wrap_Red", "", 25, "" },
 
-			{ "H_Hat_Face_Wrap_Dark","Shemag G. Schwarz", 25, "" },
-			{ "H_Hat_Face_Wrap_DPM","Shemag G. Tarn", 25, "" },
+			{ "H_Hat_Face_Wrap_Dark", "Shemag G. Schwarz", 25, "" },
+			{ "H_Hat_Face_Wrap_DPM", "Shemag G. Tarn", 25, "" },
 
 			{ "H_Hat_Kufiya_B", "", 25, "" },
 			{ "H_Hat_Kufiya_F", "", 25, "" },
@@ -1633,48 +1647,48 @@ class Clothing {
 			{ "Masque_Chirurgical", "", 5, "" },
 
 			{ "SFG_Tac_smallBeardD", "", 5, "" },
-			{ "SFG_Tac_BeardD","Bart (Dunkel)", 5, "" },
-			{ "SFG_Tac_ChopsD","Mutton Chops (Dunkel)", 5, "" },
-			{ "SFG_Tac_moustacheD","Moustache (Dunkel)", 5, "" },
-			{ "SFG_Tac_chinlessbD","Chinless Beard (Dunkel)", 5, "" },
+			{ "SFG_Tac_BeardD", "Bart (Dunkel)", 5, "" },
+			{ "SFG_Tac_ChopsD", "Mutton Chops (Dunkel)", 5, "" },
+			{ "SFG_Tac_moustacheD", "Moustache (Dunkel)", 5, "" },
+			{ "SFG_Tac_chinlessbD", "Chinless Beard (Dunkel)", 5, "" },
 
 			{ "SFG_Tac_smallBeardG", "", 5, "" },
-			{ "SFG_Tac_BeardG","Bart (Ginger)", 5, "" },
-			{ "SFG_Tac_ChopsG","Mutton Chops (Ginger)", 5, "" },
-			{ "SFG_Tac_moustacheG","Moustache (Ginger)", 5, "" },
-			{ "SFG_Tac_chinlessbG","Chinless Beard (Ginger)", 5, "" },
+			{ "SFG_Tac_BeardG", "Bart (Ginger)", 5, "" },
+			{ "SFG_Tac_ChopsG", "Mutton Chops (Ginger)", 5, "" },
+			{ "SFG_Tac_moustacheG", "Moustache (Ginger)", 5, "" },
+			{ "SFG_Tac_chinlessbG", "Chinless Beard (Ginger)", 5, "" },
 
 			{ "SFG_Tac_smallBeardO", "", 5, "" },
-			{ "SFG_Tac_BeardO","Bart (Alt)", 5, "" },
-			{ "SFG_Tac_ChopsO","Mutton Chops (Alt)", 5, "" },
-			{ "SFG_Tac_moustacheO","Moustache (Alt)", 5, "" },
-			{ "SFG_Tac_chinlessbO","Chinless Beard (Alt)", 5, "" },
+			{ "SFG_Tac_BeardO", "Bart (Alt)", 5, "" },
+			{ "SFG_Tac_ChopsO", "Mutton Chops (Alt)", 5, "" },
+			{ "SFG_Tac_moustacheO", "Moustache (Alt)", 5, "" },
+			{ "SFG_Tac_chinlessbO", "Chinless Beard (Alt)", 5, "" },
 
 			{ "SFG_Tac_smallBeardB", "", 5, "" },
-			{ "SFG_Tac_BeardB","Bart (Blond)", 5, "" },
-			{ "SFG_Tac_ChopsB","Mutton Chops (Blond)", 5, "" },
-			{ "SFG_Tac_moustacheB","Moustache (Blond)", 5, "" },
-			{ "SFG_Tac_chinlessbB","Chinless Beard (Blond)", 5, "" },
+			{ "SFG_Tac_BeardB", "Bart (Blond)", 5, "" },
+			{ "SFG_Tac_ChopsB", "Mutton Chops (Blond)", 5, "" },
+			{ "SFG_Tac_moustacheB", "Moustache (Blond)", 5, "" },
+			{ "SFG_Tac_chinlessbB", "Chinless Beard (Blond)", 5, "" },
 
-			{ "TRYK_Beard_BW","Vollbart", 5, "" },
+			{ "TRYK_Beard_BW", "Vollbart", 5, "" },
 			{ "TRYK_Beard_BW2", "", 5, "" },
 			{ "TRYK_Beard_BW3", "", 5, "" },
 			{ "TRYK_Beard_BW4", "", 5, "" },
 
-			{ "TRYK_Beard","Vollbart", 5, "" },
+			{ "TRYK_Beard", "Vollbart", 5, "" },
 			{ "TRYK_Beard2", "", 5, "" },
-			{ "TRYK_Beard3","Vollbart", 5, "" },
+			{ "TRYK_Beard3", "Vollbart", 5, "" },
 			{ "TRYK_Beard4", "", 5, "" },
 
 			{ "TRYK_Beard_Gr", "", 5, "" },
 			{ "TRYK_Beard_Gr2", "", 5, "" },
-			{ "TRYK_Beard_Gr3","Vollbart", 5, "" },
+			{ "TRYK_Beard_Gr3", "Vollbart", 5, "" },
 			{ "TRYK_Beard_Gr4", "", 5, "" },
 
 			{ "TRYK_Beard_BK", "", 5, "" },
-			{ "TRYK_Beard_BK2","Vollbart", 5, "" },
-			{ "TRYK_Beard_BK3","Vollbart", 5, "" },
-			{ "TRYK_Beard_BK4","Vollbart", 5, "" },
+			{ "TRYK_Beard_BK2", "Vollbart", 5, "" },
+			{ "TRYK_Beard_BK3", "Vollbart", 5, "" },
+			{ "TRYK_Beard_BK4", "Vollbart", 5, "" },
 
 			{ "TRYK_headset_Glasses", "", 5, "" },
 			
@@ -1742,56 +1756,57 @@ class Clothing {
 			{ "Masque_Chirurgical", "", 5, "" },
 
 			{ "SFG_Tac_smallBeardD", "", 5, "" },
-			{ "SFG_Tac_BeardD","Bart (Dunkel)", 5, "" },
-			{ "SFG_Tac_ChopsD","Mutton Chops (Dunkel)", 5, "" },
-			{ "SFG_Tac_moustacheD","Moustache (Dunkel)", 5, "" },
-			{ "SFG_Tac_chinlessbD","Chinless Beard (Dunkel)", 5, "" },
+			{ "SFG_Tac_BeardD", "Bart (Dunkel)", 5, "" },
+			{ "SFG_Tac_ChopsD", "Mutton Chops (Dunkel)", 5, "" },
+			{ "SFG_Tac_moustacheD", "Moustache (Dunkel)", 5, "" },
+			{ "SFG_Tac_chinlessbD", "Chinless Beard (Dunkel)", 5, "" },
 
 			{ "SFG_Tac_smallBeardG", "", 5, "" },
-			{ "SFG_Tac_BeardG","Bart (Ginger)", 5, "" },
-			{ "SFG_Tac_ChopsG","Mutton Chops (Ginger)", 5, "" },
-			{ "SFG_Tac_moustacheG","Moustache (Ginger)", 5, "" },
-			{ "SFG_Tac_chinlessbG","Chinless Beard (Ginger)", 5, "" },
+			{ "SFG_Tac_BeardG", "Bart (Ginger)", 5, "" },
+			{ "SFG_Tac_ChopsG", "Mutton Chops (Ginger)", 5, "" },
+			{ "SFG_Tac_moustacheG", "Moustache (Ginger)", 5, "" },
+			{ "SFG_Tac_chinlessbG", "Chinless Beard (Ginger)", 5, "" },
 
 			{ "SFG_Tac_smallBeardO", "", 5, "" },
-			{ "SFG_Tac_BeardO","Bart (Alt)", 5, "" },
-			{ "SFG_Tac_ChopsO","Mutton Chops (Alt)", 5, "" },
-			{ "SFG_Tac_moustacheO","Moustache (Alt)", 5, "" },
-			{ "SFG_Tac_chinlessbO","Chinless Beard (Alt)", 5, "" },
+			{ "SFG_Tac_BeardO", "Bart (Alt)", 5, "" },
+			{ "SFG_Tac_ChopsO", "Mutton Chops (Alt)", 5, "" },
+			{ "SFG_Tac_moustacheO", "Moustache (Alt)", 5, "" },
+			{ "SFG_Tac_chinlessbO", "Chinless Beard (Alt)", 5, "" },
 
 			{ "SFG_Tac_smallBeardB", "", 5, "" },
-			{ "SFG_Tac_BeardB","Bart (Blond)", 5, "" },
-			{ "SFG_Tac_ChopsB","Mutton Chops (Blond)", 5, "" },
-			{ "SFG_Tac_moustacheB","Moustache (Blond)", 5, "" },
-			{ "SFG_Tac_chinlessbB","Chinless Beard (Blond)", 5, "" },
+			{ "SFG_Tac_BeardB", "Bart (Blond)", 5, "" },
+			{ "SFG_Tac_ChopsB", "Mutton Chops (Blond)", 5, "" },
+			{ "SFG_Tac_moustacheB", "Moustache (Blond)", 5, "" },
+			{ "SFG_Tac_chinlessbB", "Chinless Beard (Blond)", 5, "" },
 
-			{ "TRYK_Beard_BW","Vollbart", 5, "" },
+			{ "TRYK_Beard_BW", "Vollbart", 5, "" },
 			{ "TRYK_Beard_BW2", "", 5, "" },
 			{ "TRYK_Beard_BW3", "", 5, "" },
 			{ "TRYK_Beard_BW4", "", 5, "" },
 
-			{ "TRYK_Beard","Vollbart", 5, "" },
+			{ "TRYK_Beard", "Vollbart", 5, "" },
 			{ "TRYK_Beard2", "", 5, "" },
-			{ "TRYK_Beard3","Vollbart", 5, "" },
+			{ "TRYK_Beard3", "Vollbart", 5, "" },
 			{ "TRYK_Beard4", "", 5, "" },
 
 			{ "TRYK_Beard_Gr", "", 5, "" },
 			{ "TRYK_Beard_Gr2", "", 5, "" },
-			{ "TRYK_Beard_Gr3","Vollbart", 5, "" },
+			{ "TRYK_Beard_Gr3", "Vollbart", 5, "" },
 			{ "TRYK_Beard_Gr4", "", 5, "" },
 
 			{ "TRYK_Beard_BK", "", 5, "" },
-			{ "TRYK_Beard_BK2","Vollbart", 5, "" },
-			{ "TRYK_Beard_BK3","Vollbart", 5, "" },
-			{ "TRYK_Beard_BK4","Vollbart", 5, "" },
+			{ "TRYK_Beard_BK2", "Vollbart", 5, "" },
+			{ "TRYK_Beard_BK3", "Vollbart", 5, "" },
+			{ "TRYK_Beard_BK4", "Vollbart", 5, "" },
 
 			{ "TRYK_headset_Glasses", "", 5, "" }			
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, "" },
-			{ "TRYK_V_Bulletproof_BLK","FBI Weste", 100, "" },
-			{ "TAC_V_tacv1_FBI2","FBI Weste", 100, "" },
-			{ "TRYK_V_tacv1_FBI_BK","Einsatzweste (Grün)", 200, "" },
+			{ "S_FBI","", 100, "" },
+			{ "TRYK_V_Bulletproof_BLK", "FBI Weste", 100, "" },
+			{ "TAC_V_tacv1_FBI2", "FBI Weste", 100, "" },
+			{ "TRYK_V_tacv1_FBI_BK", "Einsatzweste (Grün)", 200, "" },
             { "EF_BLT_M1", "", 265, "call life_coplevel >= 1" },
 			{ "EF_BLT_M1B", "", 265, "call life_coplevel >= 1" },
 			{ "V_BandollierB_cbr", "", 100, "" },
@@ -1937,11 +1952,13 @@ class Clothing {
         side = "cop";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, "" },
+			{ "TCG_SWAT","SWAT Uniform", 50, "" },
+			{ "RM_SWAT_Uniform_01","SWAT Uniform (Blau)", 50, "" },
+			{ "RM_SWAT_Uniform_02","SWAT Uniform (Schwarz)", 50, "" },
 			{ "TRYK_U_B_BLK","SWAT 1 Lang (Schwarz)", 50, "" },
 			{ "TRYK_U_B_BLK_Tshirt","SWAT 1 Kurz (Schwarz)", 50, "" },
 			{ "TRYK_U_B_BLKBLK_CombatUniform","SWAT 2 Lang (Schwarz)", 50, "" },
-			{ "TRYK_U_B_BLKBLK_R_CombatUniform","SWAT 2 Kurz (Schwarz)", 50, "" },
-            { "doj_uni","STATE", 50, "" },	
+			{ "TRYK_U_B_BLKBLK_R_CombatUniform","SWAT 2 Kurz (Schwarz)", 50, "" },	
 			{ "EF_HMMSL_1","Marshall Jacke", 50, "" },	
             { "EF_HMMSL_2","Marshall Jacke", 50, "" },
 			{ "sp_rang3", "State Detective Kurz", 20, "" },
@@ -1969,11 +1986,9 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, "" },
-			{ "H_Cap_pmc", "SWAT Mütze", 10, "" },
-			{ "H_Capbw_pmc", "SWAT Mütze", 10, "" },
-			{ "H_Cap_tan_pmc", "STATE Mütze", 10, "" },
-			{ "H_Capbw_tan_pmc", "STATE Mütze", 10, "" },
-			{ "do_swatcap", "SWAT Kappe", 2, "" },
+			{ "Campaign_Hat_State", "State Trooper Hut", 20, "" },
+			{ "RM_SWAT_Helmet_01", "SWAT Helm", 10, "" },
+			{ "RM_SWAT_MilCap_Black", "SWAT Mütze", 10, "" },
 			{ "TRYK_H_PASGT_BLK", "SWAT Helm (black)", 25, "" },
 			{ "RPIMA_helm", "Schwerer Schutzhelm", 28, "" },
 			{ "TCG_swathelmet", "", 20, "" },
@@ -1984,15 +1999,13 @@ class Clothing {
 			{ "gign_helm3", "Leichter Schutzhelm", 12, "" },
 			{ "gign_helm4", "Leichter Schutzhelm", 12, "" },
 			{ "gign_Balaclava", "Taktische Maske", 2, "" },
-			{ "Campaign_Hat_Dark", "LVPD Swat Hut", 17, "" },
 			{ "TRYK_H_PASGT_OD", "SERT Helm", 20, "" },
 			{ "RPIMA_Balaclava2", "SERT Balaclava", 20, "" },
 			{ "H_Beret_blk", "", 20, "" },
 			{ "H_Beret_Colonel", "", 20, "" },
 			{ "H_Watchcap_blk", "Wollmütze Headset (Schwarz)", 20, "" },
 			{ "TRYK_H_woolhat", "Wollmütze (Schwarz)", 20, "" },
-			{ "H_Watchcap_camo", "Wollmütze Headset (grün)", 20, "" },
-            { "Campaign_Hat_State", "State Hut)", 20, "" }			
+			{ "H_Watchcap_camo", "Wollmütze Headset (grün)", 20, "" }			
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, "" },
@@ -2022,6 +2035,9 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, "" },
+			{ "S_STATE", "State Trooper Veste", 200, "" },
+			{ "TCG_swatvest1", "SWAT Veste", 200, "" },
+			{ "RM_SWAT_Vest_01", "SWAT Veste [Ridealong]", 200, "" },
 			{ "EF_BLT_M1", "", 265, "" },
 			{ "EF_BLT_M1B", "", 265, "" },
 			{ "TAC_PBDFG2CPP_BK_1", "", 265, "" },
@@ -2065,13 +2081,13 @@ class Clothing {
             {"mr_pol_cloth_sheriff_c_8","Sheriff Captain", 30, "call life_coplevel >= 8" },		
             {"Sheriff_rang9","Commander Uniformen", 30, "call life_coplevel >= 9" },
             {"mr_pol_cloth_sheriff_c_9","Sheriff Commander", 30, "call life_coplevel >= 9" },
-            {"Sheriff_rang10","Dep. Chief Uniformen",, 30, "call life_coplevel >= 10" },
-            {"mr_pol_cloth_sheriff_c_10","Sheriff Dep. Chief",, 30, "call life_coplevel >= 10" },
-            {"Sheriff_rang11","Ast. Chief Uniformen",, 30, "call life_coplevel >= 11" },
-            {"mr_pol_cloth_sheriff_c_11","Sheriff Ast. Chief",, 30, "call life_coplevel >= 11" },	
-            {"Sheriff_rang12","Chief Uniformen",, 30, "call life_coplevel >= 12" },
-            {"mr_pol_cloth_sheriff_c_12","Sheriff Chief",, 30, "call life_coplevel >= 12" },
-            {"mr_pol_cloth_sheriff_c_13","Sheriff Commissioner",, 30, "call life_coplevel >= 13" },		
+            {"Sheriff_rang10","Dep. Chief Uniformen", 30, "call life_coplevel >= 10" },
+            {"mr_pol_cloth_sheriff_c_10","Sheriff Dep. Chief", 30, "call life_coplevel >= 10" },
+            {"Sheriff_rang11","Ast. Chief Uniformen", 30, "call life_coplevel >= 11" },
+            {"mr_pol_cloth_sheriff_c_11","Sheriff Ast. Chief", 30, "call life_coplevel >= 11" },	
+            {"Sheriff_rang12","Chief Uniformen", 30, "call life_coplevel >= 12" },
+            {"mr_pol_cloth_sheriff_c_12","Sheriff Chief", 30, "call life_coplevel >= 12" },
+            {"mr_pol_cloth_sheriff_c_13","Sheriff Commissioner", 30, "call life_coplevel >= 13" },		
             { "sheriff_uni1","Sheriff 1 ", 50, "" },
             { "sheriff_uni2","Sheriff 2 ", 50, "" },
             { "EF_HMSRF_1","Sheriff Jacke 1 ", 50, "" },
@@ -2085,6 +2101,7 @@ class Clothing {
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, "" },
+			{ "Campaign_Hat_Sheriff", "Sheriff Hut", 20, "" },
 			{ "H_Cap_pmc", "SWAT Mütze", 10, "" },
 			{ "H_Capbw_pmc", "SWAT Mütze", 10, "" },
 			{ "do_swatcap", "SWAT Kappe", 2, "" },
@@ -2097,8 +2114,7 @@ class Clothing {
 			{ "RPIMA_helm", "Schwerer Schutzhelm", 28, "" },
 			{ "H_Watchcap_blk", "Wollmütze Headset (Schwarz)", 20, "" },
 			{ "TRYK_H_woolhat", "Wollmütze (Schwarz)", 20, "" },
-			{ "H_Watchcap_camo", "Wollmütze Headset (grün)", 20, "" },
-            { "Campaign_Hat_Sheriff", "Sheriff Hut)", 20, "" }			
+			{ "H_Watchcap_camo", "Wollmütze Headset (grün)", 20, "" }			
         };
         goggles[] = {
             { "NONE", "Remove Glasses", 0, "" },
@@ -2113,6 +2129,7 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, "" },
+			{ "S_SHERIFF", "", 265, "call life_coplevel >= 1" },
             { "EF_BLT_M1", "", 265, "call life_coplevel >= 1" },
 			{ "EF_BLT_M1B", "", 265, "call life_coplevel >= 1" },
 			{ "TAC_Sheriff_BA_OD", "", 265, "call life_coplevel >= 1" },
@@ -2170,7 +2187,6 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, "" },
-            { "V_Rangemaster_belt", "", 4900, "" }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, "" }
@@ -2192,7 +2208,6 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, "" },
-            { "V_Rangemaster_belt", "", 1900, "" }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, "" }
@@ -2205,12 +2220,12 @@ class Clothing {
         side = "med";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, "" },
-			{ "U_Rangemaster","EMS Uniform",, 30, "call life_mediclevel >= 1" },
-			{ "CG_EMS2","",, 3, "" },
-			{ "CG_EMS1","",, 3, "" },
-			{ "CG_EMS3","",, 3, "" },
-			{ "CG_EMS4","",, 3, "" },
-			{ "CG_EMS5","",, 3, "" },
+			{ "U_Rangemaster","EMS Uniform", 30, "call life_mediclevel >= 1" },
+			{ "CG_EMS2","", 3, "" },
+			{ "CG_EMS1","", 3, "" },
+			{ "CG_EMS3","", 3, "" },
+			{ "CG_EMS4","", 3, "" },
+			{ "CG_EMS5","", 3, "" },
 			{ "CG_EMS5", 5, "" },
 			{ "CG_EMS6", 5, "" },
 			{ "CG_EMS7", 5, "" },
@@ -2304,7 +2319,8 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, "" },
-			{ "V_BandollierB_blk", " ", 50, "" },
+			{ "S_EMS", "", 50, "" },
+			{ "V_BandollierB_blk", "", 50, "" },
 			{ "V_RebreatherIR", "", 5, -1, "" },
 			{ "TAC_LBT_HL3_B", "", 5, -1, "" },
 			{ "TAC_LBT_HL3_B", "", 5, -1, "" },
@@ -2323,8 +2339,8 @@ class Clothing {
         side = "lac";
         uniforms[] = {
             { "NONE", "Remove Uniform", 0, "" },
-			{ "U_Rangemaster","EMS Uniform",, 30, "" },
-			{ "SAC_Overall","",, 30, "" }
+			{ "U_Rangemaster","SAC Uniform", 30, "" },
+			{ "SAC_Overall","", 30, "" }
         };
         headgear[] = {
             { "NONE", "Remove Hat", 0, "" },
@@ -2346,11 +2362,71 @@ class Clothing {
         };
         vests[] = {
             { "NONE", "Remove Vest", 0, "" },
+			{ "S_SAC", " ", 50, "" },
 			{ "V_BandollierB_blk", " ", 50, "" }
         };
         backpacks[] = {
             { "NONE", "Remove Backpack", 0, "" },
             { "B_FieldPack_oli", "EMS Backpack", 3000, "" }
+			
+		};
+    };
+	
+	class women_clothing {
+        title = "STR_MAR_Women_Clothing_Shop";
+        conditions = "license_civ_women";
+        side = "civ";
+        uniforms[] = {
+            { "NONE", "Remove Uniform", 0, "" },
+			{ "EF_FEM_2BK", "Frauenkleidung", 100, "" },
+			{ "EF_FEM_4", "Frauenkleidung", 100, "" },
+			{ "EF_FEM_4_2B", "Frauenkleidung", 100, "" },
+			{ "EF_FEM_4_2BL", "Frauenkleidung", 100, "" },
+			{ "EF_FEM_4_2PP", "Frauenkleidung", 100, "" },
+			{ "EF_FEM_4_2LPBW", "Frauenkleidung", 100, "" },
+			{ "EF_FEM_4_2LPB", "Frauenkleidung", 100, "" },
+			{ "EF_FEM_4_76R", "Frauenkleidung", 100, "" },
+			{ "EF_FEM_4_4B", "Frauenkleidung", 100, "" },
+			{ "EF_FEM_4_7R", "Frauenkleidung", 100, "" },
+			{ "EF_FEM_3_7", "Frauenkleidung", 100, "" }
+        };
+        headgear[] = {
+            { "NONE", "Remove Hat", 0, "" }
+        };
+        goggles[] = {
+            { "NONE", "Remove Glasses", 0, "" }
+        };
+        vests[] = {
+            { "NONE", "Remove Vest", 0, "" }
+        };
+        backpacks[] = {
+            { "NONE", "Remove Backpack", 0, "" }
+        };
+    };
+	
+	class presse_clothing {
+        title = "STR_MAR_Presse_C_pre";
+        conditions = "license_civ_presse";
+        side = "civ";
+        uniforms[] = {
+            { "NONE", "Remove Uniform", 0, "" },
+			{ "U_C_Journalist","Presse Kleidung [LR]", 50, "" },
+			{ "TRYK_U_B_BLKBLK_CombatUniform","Undercover Kleidung (Lang) [LR]", 50, "" },
+			{ "TRYK_U_B_BLKBLK_R_CombatUniform","Undercover Kleidung (Kurz) [LR]", 50, "" }
+        };
+        headgear[] = {
+            { "NONE", "Remove Hat", 0, "" }
+        };
+        goggles[] = {
+            { "NONE", "Remove Glasses", 0, "" }
+        };
+        vests[] = {
+            { "NONE", "Remove Vest", 0, "" }
+			{ "V_Press_F", "Presse Veste [LR]", 75, "" }
+        };
+        backpacks[] = {
+            { "NONE", "Remove Backpack", 0, "" }
+            { "B_Kitbag_blk", "Presse Umhängetasche [LR]", 3000, "" }
         };
     };
 
@@ -2962,6 +3038,68 @@ class Clothing {
 			{ "TRYK_B_tube_od", "", 50, "" },
 			{ "ACE_TacticalLadder_Pack", "", 500, "" },
 			{ "B_Parachute", "", 500, "" }
+		};
+    };
+
+    class justiz {
+        title = "STR_MAR_Justiz_Clothing_Shop";
+        condition = "license_civ_justiz";
+        side = "civ";
+        uniforms[] = {
+            { "NONE", "Remove Uniform", 0, "" },
+			{ "KAEL_SUITS_BLK_F", "", 250, "" },
+			{ "KAEL_SUITS_BR_F", "", 250, "" },
+			{ "KAEL_SUITS_BR_F3", "", 250, "" },
+			{ "KAEL_SUITS_BR_F4", "", 250, "" },
+			{ "KAEL_SUITS_BR_F5", "", 250, "" },
+			{ "KAEL_SUITS_BR_F6", "", 250, "" },
+			{ "KAEL_SUITS_BR_F7", "", 250, "" },
+			{ "KAEL_SUITS_BR_F8", "", 250, "" },
+			{ "KAEL_SUITS_BR_F9", "", 250, "" },
+			{ "KAEL_SUITS_BR_F10", "", 250, "" },
+			{ "KAEL_SUITS_BR_F11", "", 250, "" },
+			{ "KAEL_SUITS_BR_F12", "", 250, "" },
+			{ "KAEL_SUITS_BR_F13", "", 250, "" },
+			{ "KAEL_SUITS_BR_F14", "", 250, "" },
+			{ "KAEL_SUITS_BR_F15", "", 250, "" },
+			{ "KAEL_SUITS_BR_F16", "", 250, "" },
+			{ "KAEL_SUITS_BR_F17", "", 250, "" },
+			{ "KAEL_SUITS_BR_F18", "", 250, "" },
+			{ "KAEL_SUITS_BR_F19", "", 250, "" },
+			{ "KAEL_SUITS_BR_F20", "", 250, "" },
+			{ "KAEL_SUITS_BR_F21", "", 250, "" },
+			{ "KAEL_SUITS_BR_F22", "", 250, "" },
+			{ "KAEL_SUITS_BR_F23", "", 250, "" },
+			{ "KAEL_SUITS_BR_F24", "", 250, "" },
+			{ "KAEL_SUITS_BR_F25", "", 250, "" },
+			{ "KAEL_SUITS_BR_F26", "", 250, "" },
+			{ "KAEL_SUITS_BR_F27", "", 250, "" },
+			{ "KAEL_SUITS_BR_F28", "", 250, "" },
+			{ "KAEL_SUITS_BR_F29", "", 250, "" },
+			{ "KAEL_SUITS_BR_F30", "", 250, "" },
+			{ "KAEL_SUITS_BR_F31", "", 250, "" },
+			{ "KAEL_SUITS_BR_F32", "", 250, "" },
+			{ "KAEL_SUITS_BR_F33", "", 250, "" },
+			{ "KAEL_SUITS_BR_F34", "", 250, "" },
+			{ "KAEL_SUITS_BR_F35", "", 250, "" },
+			{ "U_CivilianSuit_A", "", 250, "" },
+			{ "U_CivilianSuit_C", "", 250, "" },
+			{ "U_CivilianSuit_B", "", 250, "" },
+			{ "TRYK_SUITS_BLK_F", "", 250, "" },
+			{ "TRYK_SUITS_BR_F", "", 250, "" }
+        };
+        headgear[] = {
+            { "NONE", "Remove Hat", 0, "" }
+        };
+        goggles[] = {
+            { "NONE", "Remove Glasses", 0, "" }
+        };
+        vests[] = {
+            { "NONE", "Remove Vest", 0, "" },
+			{ "S_JUSTICE", "", 250, "" }
+        };
+        backpacks[] = {
+            { "NONE", "Remove Backpack", 0, "" }
         };
     };
 

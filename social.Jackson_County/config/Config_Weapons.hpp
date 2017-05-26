@@ -90,7 +90,6 @@ class WeaponShops {
 			//TFAR + ACE + Standart
             { "tf_fadak", "Walkie-Talkie", 1000, -1, "" },
             { "tf_mr3000", "Langstreckenfunk", 5500, -1, "" },
-            { "ToolKit", "", 450, -1, "" },
             { "ItemGPS", "", 10, -1, "" },
             { "Binocular", "", 10, -1, "" },
             { "ItemMap", "", 1, -1, "" },
@@ -191,7 +190,6 @@ class WeaponShops {
 			//Items
             { "tf_fadak", "Walkie-Talkie", 2500, -1, "" },
             { "tf_mr3000", "Langstreckenfunk", 10000, -1, "" },
-            { "ToolKit", "", 1450, -1, "" },
             { "ItemGPS", "", 150, -1, "" },
             { "Binocular", "", 150, -1, "" },
             { "ItemMap", "", 15, -1, "" },
@@ -225,6 +223,84 @@ class WeaponShops {
             { "optic_Yorris", "", 6000, -1, "" },
             { "RH_vp70stock", "", 6000, -1, "" },
             { "RH_M6X", "Taschenlampe (klein)", 2500, -1, "" }
+		};
+    };
+
+    class Justiz {
+        name = "Justiz Waffen&Zubehör";
+        side = "civ";
+        conditions = "license_civ_justiz";
+        items[] = {
+			//Glock 17
+            { "RH_g17", "", 1150, -1, "" },	
+			//NV-Goggles
+            { "TRYK_headset2", "Headset Groß (Nightvision)", 2000, -1, "" },
+            { "TRYK_Headset_NV", "Headset Klein (Nightvision)", 1500, -1, "" },
+            { "TRYK_Shemagh_G_NV", "Schal Grün (Nightvision)", 5000, -1, "" },
+            { "TRYK_Shemagh_TAN_NV", "Schal Tarnfleck (Nightvision)", 5000, -1, "" },
+            { "TRYK_Shemagh_WH_NV", "Schal Weis (Nightvision)", 5000, -1, "" },
+			//TFAR + ACE + Standart
+			{ "ItemCopCard", "Justiz Zugangskarte", 10, -1, "" },
+            { "tf_fadak", "Walkie-Talkie", 1000, -1, "" },
+            { "tf_mr3000", "Langstreckenfunk", 5500, -1, "" },
+            { "ItemGPS", "", 10, -1, "" },
+            { "Binocular", "", 10, -1, "" },
+            { "ItemMap", "", 1, -1, "" },
+            { "ItemCompass", "", 1, -1, "" },
+            { "ACE_fieldDressing", "", 5, -1, "" },
+            { "ACE_packingBandage", "", 5, -1, "" },
+            { "ACE_tourniquet", "", 120, -1, "" },
+            { "ACE_epinephrine", "", 5000, -1, "" },
+            { "ACE_morphine", "", 5000, -1, "" },
+            { "ACE_Flashlight_MX991", "", 40, -1, "" },
+            { "ACE_Flashlight_XL50", "", 40, -1, "" },
+            { "ACE_CableTie", "", 25, -1, "" },
+            { "ACE_EarPlugs", "", 1, -1, "" }
+        };
+        mags[] = {
+			//Glock 17		
+            { "RH_17Rnd_9x19_g17", "", 45, -1, "" }
+        accs[] = {
+			{ "RH_M6X", "Taschenlampe (klein)", 100, -1, "" }
+		};
+    };
+
+    class Presse {
+        name = "Lakeside Report Shop";
+        side = "civ";
+        conditions = "license_civ_presse";
+        items[] = {
+			//Glock 17
+            { "RH_g17", "", 1150, -1, "" },	
+			//NV-Goggles
+            { "TRYK_headset2", "Headset Groß (Nightvision)", 2000, -1, "" },
+            { "TRYK_Headset_NV", "Headset Klein (Nightvision)", 1500, -1, "" },
+            { "TRYK_Shemagh_G_NV", "Schal Grün (Nightvision)", 5000, -1, "" },
+            { "TRYK_Shemagh_TAN_NV", "Schal Tarnfleck (Nightvision)", 5000, -1, "" },
+            { "TRYK_Shemagh_WH_NV", "Schal Weis (Nightvision)", 5000, -1, "" },
+			//TFAR + ACE + Standart
+            { "tf_fadak", "Walkie-Talkie", 1000, -1, "" },
+            { "tf_mr3000", "Langstreckenfunk", 5500, -1, "" },
+            { "ItemGPS", "", 10, -1, "" },
+            { "Binocular", "", 10, -1, "" },
+            { "ItemMap", "", 1, -1, "" },
+            { "ItemCompass", "", 1, -1, "" },
+            { "ACE_fieldDressing", "", 5, -1, "" },
+            { "ACE_packingBandage", "", 5, -1, "" },
+            { "ACE_tourniquet", "", 120, -1, "" },
+            { "ACE_epinephrine", "", 5000, -1, "" },
+            { "ACE_morphine", "", 5000, -1, "" },
+            { "ACE_Flashlight_MX991", "", 40, -1, "" },
+            { "ACE_Flashlight_XL50", "", 40, -1, "" },
+            { "ACE_CableTie", "", 25, -1, "" },
+            { "ACE_EarPlugs", "", 1, -1, "" }
+        };
+        mags[] = {
+			//Glock 17		
+            { "RH_17Rnd_9x19_g17", "", 45, -1, "" }
+		};
+        accs[] = {
+			{ "RH_M6X", "Taschenlampe (klein)", 100, -1, "" }
         };
     };
 
@@ -293,17 +369,15 @@ class WeaponShops {
 			//Taurus Revolver 
             { "RH_ttracker", "", 725, -1, "call life_coplevel >= 1" },
             //Taser
-            { "Taser_26", "Tazer", 250, -1, "call life_coplevel >= 1" },
-			//Radar
-            { "Radar Gun", "Messgerät", 150, -1, "call life_coplevel >= 1" },
-			//Scorpion
-            { "SMG_02_F", "", 1250, -1, "call life_coplevel >= 2" },
+            { "Taser_26", "X26' Taser", 250, -1, "call life_coplevel >= 1" },
 			//G19
             { "RH_g19", "", 850, -1, "call life_coplevel >= 2" },
 			//USP
             { "RH_uspm", "", 800, -1, "call life_coplevel >= 2" },
 			//Kimber
             { "RH_kimber_nw", "", 750, -1, "call life_coplevel >= 2" },
+			//MP5
+            { "arifle_mas_mp5", "", 1250, -1, "call life_coplevel >= 2" },
 			//HK416 14,5
             { "R3F_HK416M", "", 1500, -1, "call life_coplevel >= 3" },
 			//M4 Block
@@ -326,7 +400,6 @@ class WeaponShops {
             { "tf_anprc155", "Langstreckenfunk", 50, -1, "call life_coplevel >= 1" },
             { "Laserdesignator", "", 50, -1, "call life_coplevel >= 1" },
             { "Laserbatteries", "", 5, -1, "call life_coplevel >= 1" },
-            { "ToolKit", "", 200, -1, "call life_coplevel >= 1" },
             { "ItemGPS", "", 10, -1, "call life_coplevel >= 1" },
             { "Binocular", "", 10, -1, "call life_coplevel >= 1" },
             { "ItemMap", "", 1, -1, "call life_coplevel >= 1" },
@@ -359,15 +432,15 @@ class WeaponShops {
 			//Taurus Revolver 
             { "RH_6Rnd_45ACP_Mag", "", 32, -1, "call life_coplevel >= 1" },
 			//Taser
-            { "26_cartridge", "Tazer Mag", 5, -1, "call life_coplevel >= 1" },
-			//Scorpion
-            { "30Rnd_9x21_Mag", "", 50, -1, "call life_coplevel >= 2" },
+            { "26_cartridge", "X26' Catridges", 5, -1, "call life_coplevel >= 1" },
 			//G19
             { "RH_19Rnd_9x19_g18", "", 45, -1, "call life_coplevel >= 2" },
 			//USP
             { "RH_16Rnd_40cal_usp", "", 40, -1, "call life_coplevel >= 2" },
 			//Kimber
             { "RH_7Rnd_45cal_m1911", "", 35, -1, "call life_coplevel >= 2" },
+			//MP5
+            { "R3F_30Rnd_9x19_MP5", "", 50, -1, "call life_coplevel >= 2" },
 			//HK416 14,5
             { "R3F_30Rnd_556x45_HK416", "", 75, -1, "call life_coplevel >= 3" },
 			//M4A1 RIS, M16A3, M4			
@@ -412,11 +485,9 @@ class WeaponShops {
 			//Taurus Revolver 
             { "RH_ttracker", "", 725, -1, "" },
             //Taser
-            { "Taser_26", "Tazer", 250, -1, "call life_coplevel >= 1" },
+            { "Taser_26", "X26' Taser", 250, -1, "call life_coplevel >= 1" },
 			//MP5
             { "arifle_mas_mp5", "", 1250, -1, "" },
-			//Scorpion
-            { "SMG_02_F", "", 1250, -1, "" },
 			//G19
             { "RH_g19", "", 850, -1, "" },
 			//USP
@@ -468,7 +539,6 @@ class WeaponShops {
             { "tf_fadak", "Ziviler Kurzstreckenfunk", 50, -1, "" },			
             { "Laserdesignator", "", 50, -1, "" },
             { "Laserbatteries", "", 5, -1, "" },
-            { "ToolKit", "", 200, -1, "" },
             { "ItemGPS", "", 10, -1, "" },
             { "Binocular", "", 10, -1, "" },
             { "ItemMap", "", 1, -1, "" },
@@ -498,11 +568,9 @@ class WeaponShops {
 			//Taurus Revolver 
             { "RH_6Rnd_45ACP_Mag", "", 32, -1, "" },
 			//Taser
-            { "26_cartridge", "Tazer Mag", 5, -1, "call life_coplevel >= 1" },
+            { "26_cartridge", "X26' Catridges", 5, -1, "call life_coplevel >= 1" },
 			//MP5
             { "R3F_30Rnd_9x19_MP5", "", 50, -1, "" },
-			//Scorpion
-            { "30Rnd_9x21_Mag", "", 50, -1, "" },
 			//G19
             { "RH_19Rnd_9x19_g18", "", 45, -1, "" },
 			//USP
@@ -586,11 +654,9 @@ class WeaponShops {
 			//Taurus Revolver 
             { "RH_ttracker", "", 725, -1, "" },
 			//Taser
-            { "Taser_26", "Tazer", 250, -1, "call life_coplevel >= 1" },
+            { "Taser_26", "X26' Taser", 250, -1, "call life_coplevel >= 1" },
 			//MP5
             { "arifle_mas_mp5", "", 1250, -1, "" },
-			//Scorpion
-            { "SMG_02_F", "", 1250, -1, "" },
 			//G19
             { "RH_g19", "", 850, -1, "" },
 			//USP
@@ -631,7 +697,7 @@ class WeaponShops {
 			//LRR AWM
             { "srifle_mas_lrr", "", 1750, -1, "" },						
 			//FNP45 Schild
-            { "KA_FNP45", "SWAT FNP45", 850, -1, "" },	
+            { "KA_FNP45", "", 850, -1, "" },	
             //CZ 750
 			{ "CUP_srifle_CZ750", "", 2000, -1, "" },
             //L115A5
@@ -653,7 +719,6 @@ class WeaponShops {
             { "tf_fadak", "Ziviler Kurzstreckenfunk", 50, -1, "" },			
             { "Laserdesignator", "", 50, -1, "" },
             { "Laserbatteries", "", 5, -1, "" },
-            { "ToolKit", "", 200, -1, "" },
             { "ItemGPS", "", 10, -1, "" },
             { "Binocular", "", 10, -1, "" },
             { "ItemMap", "", 1, -1, "" },
@@ -684,17 +749,17 @@ class WeaponShops {
 			//Taurus Revolver 
             { "RH_6Rnd_45ACP_Mag", "", 32, -1, "" },
 			//Taser
-            { "26_cartridge", "Tazer Mag", 5, -1, "call life_coplevel >= 1" },
+            { "26_cartridge", "X26' Catridges", 5, -1, "call life_coplevel >= 1" },
 			//MP5
             { "30Rnd_mas_9x21_Stanag", "", 50, -1, "" },
-			//Scorpion
-            { "30Rnd_9x21_Mag", "", 50, -1, "" },
 			//G19
             { "RH_19Rnd_9x19_g18", "", 45, -1, "" },
 			//USP
             { "RH_16Rnd_40cal_usp", "", 40, -1, "" },
 			//Kimber
             { "RH_7Rnd_45cal_m1911", "", 35, -1, "" },
+			//FNP45 Schild		
+            { "KA_15Rnd_45ACP_Mag", "", 95, -1, "" },
 			//HK416 14,5
             { "R3F_30Rnd_556x45_HK416", "", 75, -1, "" },
 			//M4A1 RIS, M16A3, M4			
@@ -721,8 +786,6 @@ class WeaponShops {
             { "RH_30Rnd_556x45_Mk262", "", 75, -1, "" },
 			//LRR AWM	
             { "10Rnd_mas_338_Stanag", "", 900, -1, "" },			
-			//FNP45 Schild		
-            { "KA_15Rnd_45ACP_Mag", "", 95, -1, "" },
 			//CZ750
 			{ "CUP_10Rnd_762x51_CZ750", "CUP_10Rnd_762x51_CZ750_Tracer", 35, -1, "" },
 			//L115A5
@@ -761,9 +824,9 @@ class WeaponShops {
 			{ "RH_spr_mbs", "", 400, -1, "" },
 			{ "optic_mas_LRPS", "", 500, -1, "" },
 			{ "muzzle_mas_snds_SH", "", 500, -1, "" },
-			{ "KA_FNP45_Flashlight", "SWAT FNP45 Flashlight", 50, -1, "" },
-			{ "KA_red", "SWAT FNP45 RedDot", 120, -1, "" },
-			{ "KA_FNP45_shield2", "SWAT FNP45 Schild", 1500, -1, "" },
+			{ "KA_FNP45_Flashlight", "", 50, -1, "" },
+			{ "KA_red", "", 120, -1, "" },
+			{ "KA_FNP45_shield2", "", 1500, -1, "" },
 			{ "ACE_M84", "", 300, -1, "" }
         };
     };		
@@ -778,13 +841,15 @@ class WeaponShops {
 			//Taurus Revolver 
             { "RH_ttracker", "", 725, -1, "call life_coplevel >= 1" },
             //Taser
-            { "Taser_26", "Tazer", 250, -1, "call life_coplevel >= 1" },
+            { "Taser_26", "X26' Taser", 250, -1, "call life_coplevel >= 1" },
 			//G19
             { "RH_g19", "", 850, -1, "call life_coplevel >= 1" },
 			//USP
             { "RH_uspm", "", 800, -1, "call life_coplevel >= 1" },
 			//Kimber
             { "RH_kimber_nw", "", 750, -1, "call life_coplevel >= 1" },
+			//MP5
+            { "arifle_mas_mp5", "", 1250, -1, "" },
 			//M4 Block
             { "RHARD_M4DDRP_F", "", 1600, -1, "call life_coplevel >= 1" },
 			//M16A3, M4
@@ -837,13 +902,15 @@ class WeaponShops {
 			//Taurus Revolver 
             { "RH_6Rnd_45ACP_Mag", "", 32, -1, "call life_coplevel >= 1" },
 			//Taser
-            { "26_cartridge", "Tazer Mag", 5, -1, "call life_coplevel >= 1" },
+            { "26_cartridge", "X26' Catridges", 5, -1, "call life_coplevel >= 1" },
 			//G19
             { "RH_19Rnd_9x19_g18", "", 45, -1, "call life_coplevel >= 1" },
 			//USP
             { "RH_16Rnd_40cal_usp", "", 40, -1, "call life_coplevel >= 1" },
 			//Kimber
             { "RH_7Rnd_45cal_m1911", "", 35, -1, "call life_coplevel >= 1" },
+			//MP5
+            { "30Rnd_mas_9x21_Stanag", "", 50, -1, "" },
 			//M4A1 RIS, M16A3, M4			
             { "30Rnd_556x45_Stanag", "", 80, -1, "call life_coplevel >= 1" },
 			//Benelli
@@ -909,7 +976,6 @@ class WeaponShops {
             { "TRYK_Headset_NV", "Headset Klein (Nightvision)", 100, -1, "" },
             { "tf_anprc148jem_13", "Kurzstreckenfunk", 5, -1, "" },
             { "tf_anarc164", "Langstreckenfunk", 50, -1, "" },			
-            { "ToolKit", "", 200, -1, "" },
             { "ItemGPS", "", 10, -1, "" },
             { "Binocular", "", 10, -1, "" },
             { "ItemMap", "", 1, -1, "" },
@@ -953,7 +1019,6 @@ class WeaponShops {
             { "TRYK_Headset_NV", "Headset Klein (Nightvision)", 100, -1, "" },
             { "tf_anprc148jem_13", "Kurzstreckenfunk", 5, -1, "" },
             { "tf_anarc164", "Langstreckenfunk", 50, -1, "" },			
-            { "ToolKit", "", 200, -1, "" },
             { "ItemGPS", "", 10, -1, "" },
             { "Binocular", "", 10, -1, "" },
             { "ItemMap", "", 1, -1, "" },

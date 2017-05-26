@@ -128,7 +128,150 @@ class CarShops {
 			{ "B_Heli_Light_01_F", "" },
 			{ "O_Heli_Light_02_unarmed_F", "" },
 			{ "I_Heli_light_03_unarmed_F", "" },
-			{ "I_Heli_Transport_02_F", "" }
+			{ "cl3_s5_camo", "" },
+			{ "cl3_q7_camo", "" },
+			{ "cl3_r8_spyder_camo", "" },
+			{ "cl3_r8_spyder_camo_urban", "" },
+			{ "cl3_q7_camo_urban", "" },
+			{ "cl3_s5_camo_urban", "" },
+			{ "cl3_e63_amg_camo_urban", "" }
+		};	
+	};
+
+    class civ_skater {
+        side = "civ";
+        conditions = "";
+        vehicles[] = {
+			{ "cl3_bike_mountainskin_flame", "" },
+			{ "cl3_bike_mountainskin_flame1", "" },
+			{ "cl3_bike_mountainskin_flame2", "" },
+			{ "cl3_bike_bmx_Roadskin_flame2", "" },
+			{ "cl3_bike_bmx_Roadskin_flame1", "" },
+			{ "cl3_bike_bmx_Roadskin_flame", "" },
+			{ "cl3_bike_bike_Roadskin_flame", "" },
+			{ "cl3_bike_bike_Roadskin_flame1", "" },
+			{ "cl3_bike_bike_Roadskin_flame2", "" },
+			{ "cl_skatea", "" },
+			{ "cl_skateb", "" },
+			{ "cl_skatec", "" },
+			{ "cl_skated", "" },
+			{ "sga_hover_board", "" }
+		};	
+	};
+
+    class civ_sl {
+        side = "civ";
+        conditions = "";
+        vehicles[] = {
+		//Audi Q7
+			{ "TB_AudiQ7_Black", "" },
+			{ "TB_AudiQ7_White", "" },
+			{ "TB_AudiQ7_Red", "" },
+			{ "TB_AudiQ7_Yellow", "" },
+			{ "TB_AudiQ7_LimeGreen", "" },
+			{ "TB_AudiQ7_Blue", "" },
+		//Audi S5
+			{ "TB_AudiS5_Black", "" },
+			{ "TB_AudiS5_White", "" },
+			{ "TB_AudiS5_Red", "" },
+			{ "TB_AudiS5_Yellow", "" },
+			{ "TB_AudiS5_LimeGreen", "" },
+			{ "TB_AudiS5_Blue", "" }
+		};	
+	};
+
+    class civ_pop {
+        side = "civ";
+        conditions = "";
+        vehicles[] = {
+		//Yamaha
+			{ "pop_yamaha_p_g", "" },
+			{ "pop_yamaha_p_j", "" },
+			{ "pop_yamaha_p_r", "" },
+			{ "pop_yamaha_p_bf", "" },
+			{ "pop_yamaha_p_noir", "" },
+			{ "pop_yamaha_p", "" },
+		//Quad
+			{ "pop_quad_1", "" },
+		//Seat
+			{ "pop_seat_leon_blanco", "" },
+		//Renault
+			{ "pop_clio_civ_noir", "" },
+		//Citroen
+			{ "pop_nemo_noir", "" },
+		//Mercedes
+			{ "pop_mercedes_190_p_civ", "" },
+			{ "pop_amg_GT1", "" },
+			{ "pop_amg_GT_blanco", "" },
+			{ "pop_c63_2015_civ", "" },
+			{ "pop_clk", "" },
+		//Opel
+			{ "pop_astra_RS", "" },
+		//Audi
+			{ "pop_r5_negro", "" },
+			{ "pop_r5_azul", "" },
+			{ "pop_a3_audiq7_bleu", "" },
+			{ "pop_AudiA1_blanco", "" },
+			{ "pop_AudiA1_D1_F", "" },
+			{ "pop_AudiA1_D2", "" },
+			{ "pop_AudiA1_D3", "" },
+            { "pop_AudiA1_D4", "" },
+            { "pop_AudiA1_D5", "" },
+		//Ford
+			{ "pop_mustang_azul", "" },
+			{ "pop_mustang_rojo", "" },
+		//Iveco
+			{ "pop_iveco_noir", "" },
+		//MAN LKW
+			{ "pop_Man_TGX_negro", "" },
+		//Renault LKW
+			{ "POP_renaultmagnum1", "" },
+			{ "POP_renaultmagnum", "" },
+		//Volvo
+			{ "pop_volvo_camion", "" },
+		//GMC Vandura
+			{ "pop_Vandura_civ_equipoa", "" },
+		//Alfa
+			{ "pop_alfa_romeo_159_negro", "" },
+		//BMW
+			{ "pop_bmw8", "" },
+			{ "pop_bmw8_rojo", "" },
+			{ "pop_bmw8_blanco", "" },
+			{ "pop_bmw_x5", "" },
+			{ "pop_bmwm4", "" },
+			{ "pop_bmwm4_D", "" },
+			{ "pop_bmwm4_D1", "" },
+            { "pop_bmwm4_D2", "" },
+			{ "pop_bmwm6_civ_t", "" },
+			{ "pop_bmwm6_amarillo_t", "" },
+            { "pop_bmwm6_naranja_t", "" },
+			{ "pop_bmw_1series_noir", ""},
+			{ "pop_bmw_1series_bleufonce", ""},
+		//Jaguar
+			{ "pop_JaguarP7Civil", "" },
+		//Porsche
+			{ "pop_panamera_azul", "" },
+			{ "pop_panamera_negro", "" },
+			{ "pop_cayenne_p_naranja", "" },
+			{ "pop_cayenne_p_negro", "" },
+			{ "pop_porche918", "" },
+		//Königsegg
+            { "pop_agera_p", "" },
+            { "pop_agera_negro", "" },
+            { "pop_agera_azul", "" },
+            { "pop_agera_amarillo", "" },
+		//Chevrolet
+			{ "pop_chevrolet_rojo", "" },
+            { "pop_chevrolet_amarillo", "" },
+			{ "pop_chevrolet_azul", "" },
+			{ "pop_chevrolet_negro", "" },
+            { "pop_chevrolet_naranja", "" },
+			{ "pop_chevroletc7_blanco", "" },
+			{ "pop_chevroletc7_rojo", "" },
+		//Dodge
+			{ "pop_dodge15_civ_negro_t", "" },
+		//Ferrari
+			{ "pop_488GT3Civil",""}
         };
     };
 	
@@ -394,7 +537,48 @@ class CarShops {
 			{ "red_explorer_16_purple", "" },
 			{ "red_explorer_16_darkgreen", "" },
 			{ "red_explorer_16_darkred", "" },
-			{ "red_explorer_16_blue", "" }
+			{ "red_explorer_16_blue", "" },
+		//RED_Fusion 2010
+			{ "red_fusion_10_black", "" },
+			{ "red_fusion_10_aqua", "" },
+			{ "red_fusion_10_darkblue", "" },
+			{ "red_fusion_10_blue", "" },
+			{ "red_fusion_10_green", "" },
+			{ "red_fusion_10_red", "" },
+			{ "red_fusion_10_pink", "" },
+			{ "red_fusion_10_yellow", "" },
+			{ "red_fusion_10_orange", "" },
+			{ "red_fusion_10_white", "" },
+			{ "red_fusion_10_purple", "" },
+			{ "red_fusion_10_darkgreen", "" },
+			{ "red_fusion_10_darkred", "" },
+		//RED_Challenger 2015
+			{ "red_challenger_15_black", "" },
+			{ "red_challenger_15_aqua", "" },
+			{ "red_challenger_15_darkblue", "" },
+			{ "red_challenger_15_blue", "" },
+			{ "red_challenger_15_green", "" },
+			{ "red_challenger_15_red", "" },
+			{ "red_challenger_15_pink", "" },
+			{ "red_challenger_15_yellow", "" },
+			{ "red_challenger_15_orange", "" },
+			{ "red_challenger_15_white", "" },
+			{ "red_challenger_15_purple", "" },
+			{ "red_challenger_15_darkgreen", "" },
+			{ "red_challenger_15_darkred", "" },
+		//RED_Ferrari F12 2013
+			{ "red_f12_13_black", "" },
+			{ "red_f12_13_aqua", "" },
+			{ "red_f12_13_darkblue", "" },
+			{ "red_f12_13_green", "" },
+			{ "red_f12_13_red", "" },
+			{ "red_f12_13_pink", "" },
+			{ "red_f12_13_yellow", "" },
+			{ "red_f12_13_orange", "" },
+			{ "red_f12_13_white", "" },
+			{ "red_f12_13_purple", "" },
+			{ "red_f12_13_darkgreen", "" },
+			{ "red_f12_13_darkred", "" }
         };
     };
 
@@ -419,8 +603,10 @@ class CarShops {
 			{ "FPT_MAN", "" },
 			{ "fpt_renault", "" },
 			{ "fptl_renault", "" },
-			{ "red_suburban_15_e_EMS", "" }
-			
+			{ "red_suburban_15_e_EMS", "" },
+			{ "red_cvpi_06_p_ems", ""},
+			{ "ivory_ems", ""},
+			{ "red_stretcher", ""}
         };
     };
 
@@ -437,69 +623,118 @@ class CarShops {
         side = "lac";
         conditions = "";
         vehicles[] = {
-            { "shounka_a3_pompier_sprinter", "" },
-            { "shounka_nemo_pompier", "" },
             { "Jonzie_Forklift", "" },
             { "cl3_dodge_chargerum_o_adac", "" },
             { "red_f350_08_p_sac", "" },
             { "red_explorer_16_e_sac", "" },
-            { "cl3_q7_clpd_etu", "" },
             { "cl3_f150raptor_orange", "" },
-            { "cl3_suv_emt_MR", "" },
             { "Quiet_sprinter_depannage", "" },
             { "shounka_a3_mantgs", "" },
-            { "red_towtruck_08_orange", "" },
 			{ "red_towtruck_08_sac", "" },
             { "cl3_fire_rescue_yellow", "" },
-            { "EC635_ADAC", "" }			
+			{ "TB_AudiS5_Orange", "" },
+			{ "TB_AudiQ7_Orange", "" },
+			{ "pop_grua", "" }
+		};
+    };
+
+    class lac_air_hs {
+        side = "lac";
+        conditions = "";
+        vehicles[] = {
+            { "EC635_ADAC", "" }
         };
-    };	
+    };
+	
+	class justiz_shop {
+        side = "civ";
+        conditions = "license_civ_justiz";
+        vehicles[] = {
+            { "red_charger_12_doc", "" },
+			{ "red_panamera_10_p_u_doc", "" },
+			{ "red_suburban_15_p_f_doc", ""}
+        };
+    };
+	
+	class presse_shop {
+        side = "presse";
+        conditions = "license_civ_presse";
+        vehicles[] = {
+			{ "red_explorer_16_lr", ""},
+			{ "red_taurus_10_lr", ""},
+			{ "cl3_transit_lr", ""}
+        };
+    };
+	
+	class presse_air_hs {
+        side = "presse";
+        conditions = "license_civ_presse";
+        vehicles[] = {
+            { "EC635_LR", "" }
+        };
+    };
 
     class cop_car {
         side = "cop";
         conditions = "";
         vehicles[] = {
-			{ "bv_e60_m5_cop_patrol", "" },
-			{ "bv_the_crowner_cop_patrol", "" },
-			{ "bv_shelly_cop_patrol", "" },
-			{ "bv_458_cop_patrol", "" },
-			{ "cl3_dodge_charger_patrol", "" },
-			{ "cl3_dodge_charger_patrol2", "" },
-			{ "cl3_reventon_clpd", "" },
-			{ "cl3_escalade_patrolwb", "" },
-			{ "bv_the_crowner_cop_sher", "" },	
-			{ "bv_the_crowner_uc", "" },
-			{ "shounka_a3_gendsprinter", "" },
-			{ "red_charger_12_p_statetrooper", "" },
-			{ "red_charger_12_p_u_statetrooper", "" },
-			{ "red_charger_15_p_statetrooper", "" },
-			{ "red_charger_15_p_u_statetrooper", "" },
-			{ "red_explorer_16_p_statetrooper", "" },
+		//RED_Fahrzeuge Cop_LVPD
+			{ "red_charger_12_p_lvpd", "" },
+			{ "red_charger_12_p_u_lvpd", "" },
+			{ "red_charger_15_p_lvpd", "" },
+			{ "red_charger_15_p_u_lvpd", "" },
+			{ "red_cvpi_06_p_lvpd", "" },
+			{ "red_f350_08_lvpd", "" },
+            { "red_explorer_16_p_lvpd", "" },
+            { "red_suburban_15_p_lvpd", "" },
+            { "red_suburban_15_p_u_lvpd", "" },
+			{ "red_taurus_10_p_lvpd", "" },
+            { "red_taurus_10_p_u_lvpd", "" },
+			{ "ivory_wrx_marked", ""},
+		//RED_Fahrzeuge Cop_SWAT
+			{ "red_charger_12_p_lvst", "" },
+			{ "red_charger_12_p_u_lvst", "" },
+			{ "red_charger_15_p_lvst", "" },
+			{ "red_charger_15_p_u_lvst", "" },
+			{ "red_explorer_16_p_lvst", "" },
 			{ "red_swat_08_p_swat", "" },
-			{ "red_charger_15_p_u_sheriff", "" },
-			{ "red_charger_15_p_sheriff", "" },
-			{ "red_charger_15_p_sheriff", "" },
-			{ "red_charger_15_p_u_sheriff", "" },
-			{ "red_cvpi_06_p_sheriff", "" },
-			{ "red_kawasaki_10_p_sheriff", "" },
-			{ "red_suburban_15_p_sheriff", "" },
-			{ "red_suburban_15_p_u_sheriff", "" },
-			{ "red_taurus_10_p_sheriff", "" },
-			{ "red_taurus_10_p_u_sheriff", "" },
-			{ "red_charger_15_p_patrol", "" },
-			{ "red_charger_15_p_u_patrol", "" },
-			{ "red_taurus_10_p_patrol", "" },
-			{ "red_taurus_10_p_u_patrol", "" },
-			{ "red_charger_15_p_sert", "" },
-			{ "red_charger_15_p_u_sert", "" },
-			{ "red_taurus_10_p_sert", "" },
-			{ "red_taurus_10_p_u_sert", "" },
-			{ "red_taurus_10_p_u_trooper", "" },
-			{ "red_taurus_10_p_trooper", "" },
-			{ "red_cvpi_06_p_trooper", "" },
-			{ "red_f350_08_p_parkranger", "" },
-			{ "red_kawasaki_10_p_trooper", "" },
-			{ "red_camaro_12_p_u_black", "" },
+			{ "red_taurus_10_p_u_lvst", "" },
+			{ "red_taurus_10_p_lvst", "" },
+			{ "red_cvpi_06_p_lvst", "" },
+			{ "red_kawasaki_10_p_lvst", "" },
+			{ "red_suburban_15_p_lvst", "" },
+			{ "red_suburban_15_p_u_lvst", "" },
+			{ "ivory_state", "" },
+			{ "sl_swatwagen", "" },
+			{ "suburban_swat_treppe", "" },
+		//RED_Fahrzeuge Cop_FBI
+			{ "red_charger_12_p_lvfb", "" },
+			{ "red_charger_12_p_u_lvfb", "" },
+			{ "red_charger_15_p_lvfb", "" },
+			{ "red_charger_15_p_u_lvfb", "" },
+			{ "red_cvpi_06_p_lvfb", "" },
+			{ "red_explorer_16_p_lvfb", "" },
+			{ "red_suburban_15_p_lvfb", "" },
+			{ "red_suburban_15_p_u_lvfb", "" },
+			{ "red_taurus_10_p_lvfb", "" },
+			{ "red_taurus_10_p_u_lvfb", "" },
+			{ "ivory_federal", "" },
+		//RED_Fahrzeuge Cop_Sheriff
+			{ "red_charger_15_p_u_lvsd", "" },
+			{ "red_charger_15_p_lvsd", "" },
+			{ "red_cvpi_06_p_lvsd", "" },
+			{ "red_kawasaki_10_p_lvsd", "" },
+			{ "red_suburban_15_p_lvsd", "" },
+			{ "red_suburban_15_p_u_lvsd", "" },
+			{ "red_taurus_10_p_lvsd", "" },
+			{ "red_taurus_10_p_u_lvsd", "" },
+			{ "red_charger_12_p_lvsd", "" },
+			{ "red_charger_12_p_u_lvsd", "" },
+			{ "red_f350_08_p_lvsd", "" },
+			{ "red_explorer_16_p_lvsd", "" },
+			{ "ivory_sheriff", "" },
+		//RED_Fahrzeuge Cop_Undercover
+		    { "red_camaro_12_p_u_black", "" },
 			{ "red_camaro_12_p_u_aqua", "" },
 			{ "red_camaro_12_p_u_darkblue", "" },
 			{ "red_camaro_12_p_u_green", "" },
@@ -510,11 +745,6 @@ class CarShops {
 			{ "red_camaro_12_p_u_purple", "" },
 			{ "red_camaro_12_p_u_darkgreen", "" },
 			{ "red_camaro_12_p_u_darkred", "" },
-			{ "red_camaro_12_p_u_custom1", "" },
-			{ "red_camaro_12_p_u_custom2", "" },
-			{ "red_camaro_12_p_u_custom3", "" },
-			{ "red_camaro_12_p_u_custom4", "" },
-			{ "red_camaro_12_p_u_custom5", "" },
 			{ "red_charger_12_p_u_black", "" },
 			{ "red_charger_12_p_u_aqua", "" },
 			{ "red_charger_12_p_u_darkblue", "" },
@@ -526,11 +756,6 @@ class CarShops {
 			{ "red_charger_12_p_u_purple", "" },
 			{ "red_charger_12_p_u_darkgreen", "" },
 			{ "red_charger_12_p_u_darkred", "" },
-			{ "red_charger_12_p_u_custom1", "" },
-			{ "red_charger_12_p_u_custom2", "" },
-			{ "red_charger_12_p_u_custom3", "" },
-			{ "red_charger_12_p_u_custom4", "" },
-			{ "red_charger_12_p_u_custom5", "" },
 			{ "red_charger_15_p_u_black", "" },
 			{ "red_charger_15_p_u_aqua", "" },
 			{ "red_charger_15_p_u_darkblue", "" },
@@ -542,11 +767,6 @@ class CarShops {
 			{ "red_charger_15_p_u_purple", "" },
 			{ "red_charger_15_p_u_darkgreen", "" },
 			{ "red_charger_15_p_u_darkred", "" },
-			{ "red_charger_15_p_u_custom1", "" },
-			{ "red_charger_15_p_u_custom2", "" },
-			{ "red_charger_15_p_u_custom3", "" },
-			{ "red_charger_15_p_u_custom4", "" },
-			{ "red_charger_15_p_u_custom5", "" },
 			{ "red_panamera_10_p_u_black", "" },
 			{ "red_panamera_10_p_u_aqua", "" },
 			{ "red_panamera_10_p_u_darkblue", "" },
@@ -558,11 +778,6 @@ class CarShops {
 			{ "red_panamera_10_p_u_purple", "" },
 			{ "red_panamera_10_p_u_darkgreen", "" },
 			{ "red_panamera_10_p_u_darkred", "" },
-			{ "red_panamera_10_p_u_custom1", "" },
-			{ "red_panamera_10_p_u_custom2", "" },
-			{ "red_panamera_10_p_u_custom3", "" },
-			{ "red_panamera_10_p_u_custom4", "" },
-			{ "red_panamera_10_p_u_custom5", "" },
 			{ "red_suburban_15_p_u_unmarked", "" },
 			{ "red_suburban_15_p_u_unmarked_2", "" },
 			{ "red_suburban_15_p_u_black", "" },
@@ -576,11 +791,6 @@ class CarShops {
 			{ "red_suburban_15_p_u_purple", "" },
 			{ "red_suburban_15_p_u_darkgreen", "" },
 			{ "red_suburban_15_p_u_darkred", "" },
-			{ "red_suburban_15_p_u_custom1", "" },
-			{ "red_suburban_15_p_u_custom2", "" },
-			{ "red_suburban_15_p_u_custom3", "" },
-			{ "red_suburban_15_p_u_custom4", "" },
-			{ "red_suburban_15_p_u_custom5", "" },
 			{ "red_taurus_10_p_u_black", "" },
 			{ "red_taurus_10_p_u_aqua", "" },
 			{ "red_taurus_10_p_u_darkblue", "" },
@@ -592,46 +802,13 @@ class CarShops {
 			{ "red_taurus_10_p_u_purple", "" },
 			{ "red_taurus_10_p_u_darkgreen", "" },
 			{ "red_taurus_10_p_u_darkred", "" },
-			{ "red_taurus_10_p_u_custom1", "" },
-			{ "red_taurus_10_p_u_custom2", "" },
-			{ "red_taurus_10_p_u_custom3", "" },
-			{ "red_taurus_10_p_u_custom4", "" },
-			{ "red_taurus_10_p_u_custom5", "" },
             { "red_camaro_12_black", "" },
 			{ "red_camaro_12_red", "" },
 			{ "red_ram_06_black", "" },
 			{ "red_ram_06_blue", "" },
 			{ "red_porsche_12_aqua", "" },
 			{ "red_porsche_12_black", "" },
-			{ "red_porsche_12_p_u_black", "" },
-		//RED_SL-SKINS			
-			{ "red_charger_12_p_lvpd", "" },
-			{ "red_charger_12_p_sheriff", "" },
-			{ "red_charger_12_p_fbi", "" },
-			{ "red_charger_12_p_u_lvpd", "" },
-			{ "red_charger_12_p_u_sheriff", "" },
-			{ "red_charger_12_p_u_fbi", "" },
-			{ "red_charger_15_p_lvpd", "" },
-			{ "red_charger_15_p_u_lvpd", "" },
-			{ "red_charger_15_p_fbi", "" },
-			{ "red_charger_15_p_u_fbi", "" },
-			{ "red_cvpi_06_p_lvpd", "" },
-			{ "red_cvpi_06_p_fbi", "" },
-			{ "red_f350_08_p_sheriff", "" },
-			{ "red_f350_08_lvpd", "" },
-			{ "red_explorer_16_p_sheriff", "" },
-            { "red_explorer_16_p_lvpd", "" },
-            { "red_explorer_16_p_fbi", "" },
-            { "red_suburban_15_p_statetrooper", "" },
-            { "red_suburban_15_p_fbi", "" },
-            { "red_suburban_15_p_lvpd", "" },
-            { "red_suburban_15_p_u_statetrooper", "" },
-            { "red_suburban_15_p_u_fbi", "" },
-            { "red_suburban_15_p_u_lvpd", "" },
-			{ "red_taurus_10_p_lvpd", "" },
-            { "red_taurus_10_p_fbi", "" },
-            { "red_taurus_10_p_u_lvpd", "" },
-            { "red_taurus_10_p_u_fbi", "" }
+			{ "red_porsche_12_p_u_black", "" }
         };
     };	
 
@@ -640,7 +817,8 @@ class CarShops {
         conditions = "";
         vehicles[] = {
             { "EC635_Unarmed", "" },
-            { "MELB_H6M", "" }
+            { "MELB_H6M_LVPD", "" },
+			{ "MELB_MH6M_SWAT", "" }
         };
     };
 
@@ -698,7 +876,8 @@ class CarShops {
 			{ "Mrshounka_subaru08_grise", "" },
 			{ "Mrshounka_subaru08_violet", "" },
 			{ "Mrshounka_subaru08_orange", "" },
-			//Nissan
+			{ "Jonzie_STI", "" },
+		//Nissan
 			{ "S_Skyline_Red", "" },
 			{ "S_Skyline_Blue", "" },
 			{ "S_Skyline_Black", "" },
@@ -725,7 +904,7 @@ class CarShops {
 			{ "Mrshounka_cherokee_noir_violet_mat", "" },
 			{ "Mrshounka_cherokee_noir_rouge", "" },
 			{ "Mrshounka_cherokee_noir_rouge_mat", "" },
-			//Honda
+		//Honda
 			{ "cl3_civic_vti_white", "" },
 			{ "cl3_civic_vti_purple", "" },
 			{ "cl3_civic_vti_navy_blue", "" },
@@ -875,6 +1054,7 @@ class CarShops {
 			{ "shounka_h2_grise", "" },
 			{ "shounka_h2_violet", "" },
 			{ "shounka_h2_orange", "" },
+		//Enduro
 			{ "cl3_enduro_yellow", "" },
 			{ "cl3_enduro_black", "" },
 			{ "cl3_enduro_blue", "" },
@@ -882,9 +1062,57 @@ class CarShops {
 			{ "cl3_enduro_babypink", "" },
 			{ "cl3_enduro_red", "" },
 			{ "cl3_enduro_dark_green", "" },
+		//Chopper
 			{ "cl3_chopper_blue", "" },
 			{ "cl3_chopper_green", "" },
-			{ "cl3_chopper_red", "" }
+			{ "cl3_chopper_red", "" },
+		//VW Touareg
+			{ "Mrshounka_Volkswagen_Touereg", "" },
+		//Audi R8
+			{ "cl3_r8_spyder_2tone1", "" },
+			{ "cl3_r8_spyder_flame1", "" },
+			{ "cl3_r8_spyder_2tone2", "" },
+			{ "cl3_r8_spyder_2tone5", "" },
+			{ "cl3_r8_spyder_2tone3", "" },
+			{ "cl3_r8_spyder_2tone4", "" },
+			{ "cl3_r8_spyder_flame2", "" },
+		//Ford Mondeo
+			{ "civ_mondeo", ""},
+		//Ford Mustang
+			{ "cl3_mustang_65_cobra_pink_black", "" },
+		//Audi S5
+			{ "cl3_s5_aqua", "" },
+			{ "cl3_s5_babypink", "" },
+			{ "cl3_s5_black", "" },
+			{ "cl3_s5_blue", "" },
+			{ "cl3_s5_burgundy", "" },
+			{ "cl3_s5_cardinal", "" },
+			{ "cl3_s5_dark_green", "" },
+			{ "cl3_s5_gold", "" },
+			{ "cl3_s5_green", "" },
+			{ "cl3_s5_grey", "" },
+			{ "cl3_s5_lavender", "" },
+			{ "cl3_s5_light_blue", "" },
+			{ "cl3_s5_light_yellow", "" },
+			{ "cl3_s5_lime", "" },
+			{ "cl3_s5_marina_blue", "" },
+			{ "cl3_s5_navy_blue", "" },
+			{ "cl3_s5_orange", "" },
+			{ "cl3_s5_purple", "" },
+			{ "cl3_s5_red", "" },
+			{ "cl3_s5_sand", "" },
+			{ "cl3_s5_silver", "" },
+			{ "cl3_s5_violet", "" },
+			{ "cl3_s5_white", "" },
+			{ "cl3_s5_yellow", "" },
+		//Mercedes E190
+			{ "Mrshounka_mercedes_190_p_violet", "" },
+			{ "Mrshounka_mercedes_190_p_civ", "" },
+			{ "Mrshounka_mercedes_190_p_grise", "" },
+			{ "Mrshounka_mercedes_190_p_noir", "" },
+			{ "Mrshounka_mercedes_190_p_rouge", "" },
+			{ "Mrshounka_mercedes_190_p_orange", "" },
+			{ "Mrshounka_mercedes_190_p_jaune", "" }
         };
     };
 	
@@ -2074,62 +2302,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 	
-    class Mrshounka_mercedes_190_p_noir {
-        vItemSpace = 45;
-        conditions = "license_civ_driver";
-        price = 16000;
-        textures[] = {};
-    };
-	
-    class Mrshounka_mercedes_190_p_bleufonce {
-        vItemSpace = 45;
-        conditions = "license_civ_driver";
-        price = 16000;
-        textures[] = {};
-    };
-	
-    class Mrshounka_mercedes_190_p_rouge {
-        vItemSpace = 45;
-        conditions = "license_civ_driver";
-        price = 16000;
-        textures[] = {};
-    };
-	
-    class Mrshounka_mercedes_190_p_jaune {
-        vItemSpace = 45;
-        conditions = "license_civ_driver";
-        price = 16000;
-        textures[] = {};
-    };
-	
-    class Mrshounka_mercedes_190_p_rose {
-        vItemSpace = 45;
-        conditions = "license_civ_driver";
-        price = 16000;
-        textures[] = {};
-    };
-	
-    class Mrshounka_mercedes_190_p_grise {
-        vItemSpace = 45;
-        conditions = "license_civ_driver";
-        price = 16000;
-        textures[] = {};
-    };
-	
-    class Mrshounka_mercedes_190_p_violet {
-        vItemSpace = 45;
-        conditions = "license_civ_driver";
-        price = 16000;
-        textures[] = {};
-    };
-	
-    class Mrshounka_mercedes_190_p_orange {
-        vItemSpace = 45;
-        conditions = "license_civ_driver";
-        price = 16000;
-        textures[] = {};
-    };
-	
     class Mrshounka_Vandura_civ_noir {
         vItemSpace = 85;
         conditions = "license_civ_driver";
@@ -2449,62 +2621,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 10000;
-        textures[] = {};
-    };
-
-    class bv_the_crowner_uc {
-        vItemSpace = 50;
-        conditions = "license_cop_fbi";
-        price = 1250;
-        textures[] = {};
-    };
-	
-	class cl3_escalade_patrolwb {
-        vItemSpace = 50;
-        conditions = "license_cop_fbi";
-        price = 1250;
-        textures[] = {};
-	};
-
-    class bv_the_crowner_cop_sher {
-        vItemSpace = 50;
-        conditions = "license_cop_fbi";
-        price = 1250;
-        textures[] = {};
-    };	
-	
-    class cl3_dodge_charger_patrol {
-        vItemSpace = 50;
-        conditions = "";
-        price = 1250;
-        textures[] = {};
-    };
-	
-    class cl3_dodge_charger_patrol2 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 1250;
-        textures[] = {};
-    };
-	
-    class cl3_reventon_clpd {
-        vItemSpace = 50;
-        conditions = "";
-        price = 1250;
-        textures[] = {};
-    };
-	
-    class CL3_bike_bmx_roadskin_flame2 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-    };
-	
-    class CL3_bike_bike_roadskin_flame2 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
         textures[] = {};
     };	
 
@@ -3859,1150 +3975,1296 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 
-	    class cl3_lamborghini_gt1_burgundy {
+	class cl3_lamborghini_gt1_burgundy {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 100000;
         textures[] = {};
     };
-	    class cl3_lamborghini_gt1_black {
+	
+	class cl3_lamborghini_gt1_black {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 100000;
         textures[] = {};
     };
-	    class S_PorscheRS_Black {
+	
+	class S_PorscheRS_Black {
         vItemSpace = 30;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class S_PorscheRS_White {
+	    
+	class S_PorscheRS_White {
         vItemSpace = 30;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class cl3_carrera_gt_white {
+	    
+	class cl3_carrera_gt_white {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_carrera_gt_purple {
+	    
+	class cl3_carrera_gt_purple {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_carrera_gt_navy_blue {
+	    
+	class cl3_carrera_gt_navy_blue {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_carrera_gt_lime {
+	    
+	class cl3_carrera_gt_lime {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_carrera_gt_light_blue {
+	    
+	class cl3_carrera_gt_light_blue {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_carrera_gt_grey {
+	    
+	class cl3_carrera_gt_grey {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
 
-	    class cl3_carrera_gt_burgundy {
+	    
+	class cl3_carrera_gt_burgundy {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_carrera_gt_black {
+	    
+	class cl3_carrera_gt_black {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class Mrshounka_cayenne_p_noir {
+	    
+	class Mrshounka_cayenne_p_noir {
         vItemSpace = 65;
         conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
-	    class Mrshounka_cayenne_p_bleufonce {
+	    
+	class Mrshounka_cayenne_p_bleufonce {
         vItemSpace = 65;
         conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
-	    class Mrshounka_cayenne_p_rouge {
+	    
+	class Mrshounka_cayenne_p_rouge {
         vItemSpace = 65;
         conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
-	    class Mrshounka_cayenne_p_jaune {
+	    
+	class Mrshounka_cayenne_p_jaune {
         vItemSpace = 65;
         conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
-	    class Mrshounka_cayenne_p_rose {
+	    
+	class Mrshounka_cayenne_p_rose {
         vItemSpace = 65;
         conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
-	    class Mrshounka_cayenne_p_grise {
+	    
+	class Mrshounka_cayenne_p_grise {
         vItemSpace = 65;
         conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
-	    class Mrshounka_cayenne_p_violet {
+	    
+	class Mrshounka_cayenne_p_violet {
         vItemSpace = 65;
         conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
-	    class Mrshounka_cayenne_p_orange {
+	    
+	class Mrshounka_cayenne_p_orange {
         vItemSpace = 65;
         conditions = "license_civ_driver";
         price = 70000;
         textures[] = {};
     };
-	    class shounka_porsche911_noir {
+	    
+	class shounka_porsche911_noir {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class shounka_porsche911_bleufonce {
+	    
+	class shounka_porsche911_bleufonce {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class shounka_porsche911_rouge {
+	    
+	class shounka_porsche911_rouge {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class shounka_porsche911_jaune {
+	    
+	class shounka_porsche911_jaune {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class shounka_porsche911_rose {
+	    
+	class shounka_porsche911_rose {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class shounka_porsche911_grise {
+	    
+	class shounka_porsche911_grise {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class shounka_porsche911_violet {
+	    
+	class shounka_porsche911_violet {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class shounka_porsche911_orange {
+	    
+	class shounka_porsche911_orange {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class mrshounka_92_civ_noir {
+	    
+	class mrshounka_92_civ_noir {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 52500;
         textures[] = {};
     };
-	    class mrshounka_92_civ_bleufonce {
+	    
+	class mrshounka_92_civ_bleufonce {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 52500;
         textures[] = {};
     };
-	    class mrshounka_92_civ_rouge {
+	    
+	class mrshounka_92_civ_rouge {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 52500;
         textures[] = {};
     };
-	    class mrshounka_92_civ_jaune {
+	    
+	class mrshounka_92_civ_jaune {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 52500;
         textures[] = {};
     };
-	    class mrshounka_92_civ_rose {
+	    
+	class mrshounka_92_civ_rose {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 52500;
         textures[] = {};
     };
-	    class mrshounka_92_civ_grise {
+	    
+	class mrshounka_92_civ_grise {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 52500;
         textures[] = {};
     };
-	    class mrshounka_92_civ_violet {
+	    
+	class mrshounka_92_civ_violet {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 52500;
         textures[] = {};
     };
-	    class mrshounka_92_civ_orange {
+	    
+	class mrshounka_92_civ_orange {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 52500;
         textures[] = {};
     };
-	    class cl3_458_white {
+	    
+	class cl3_458_white {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_458_purple {
+	    
+	class cl3_458_purple {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_458_navy_blue {
+	    
+	class cl3_458_navy_blue {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_458_lime {
+	    
+	class cl3_458_lime {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_458_light_yellow {
+	    
+	class cl3_458_light_yellow {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_458_light_blue {
+	    
+	class cl3_458_light_blue {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_458_grey {
+	    
+	class cl3_458_grey {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
 
-	    class cl3_458_burgundy {
+	class cl3_458_burgundy {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class cl3_458_black {
+	
+	class cl3_458_black {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 75000;
         textures[] = {};
     };
-	    class shounka_f430_spider_noir {
+	    
+	class shounka_f430_spider_noir {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 85000;
         textures[] = {};
     };
-	    class shounka_f430_spider_bleufonce {
+	    
+	class shounka_f430_spider_bleufonce {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 85000;
         textures[] = {};
     };
-	    class shounka_f430_spider_rouge {
+	    
+	class shounka_f430_spider_rouge {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 85000;
         textures[] = {};
     };
-	    class shounka_f430_spider_jaune {
+	    
+	class shounka_f430_spider_jaune {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 85000;
         textures[] = {};
     };
-	    class shounka_f430_spider_rose {
+	    
+	class shounka_f430_spider_rose {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 85000;
         textures[] = {};
     };
-	    class shounka_f430_spider_grise {
+	    
+	class shounka_f430_spider_grise {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 85000;
         textures[] = {};
     };
-	    class shounka_f430_spider_violet {
+	    
+	class shounka_f430_spider_violet {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 85000;
         textures[] = {};
     };
-	    class shounka_f430_spider_orange {
+	    
+	class shounka_f430_spider_orange {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 85000;
         textures[] = {};
     };
-	    class cl3_dodge_charger_f_white {
+	    
+	class cl3_dodge_charger_f_white {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
-	    class cl3_dodge_charger_f_purple {
+	    
+	class cl3_dodge_charger_f_purple {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
-	    class cl3_dodge_charger_f_blue {
+	    
+	class cl3_dodge_charger_f_blue {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
-	    class cl3_dodge_charger_f_lime {
+	    
+	class cl3_dodge_charger_f_lime {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
-	    class cl3_dodge_charger_f_grey {
+	    
+	class cl3_dodge_charger_f_grey {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
-	    class cl3_dodge_charger_f_black {
+	    
+	class cl3_dodge_charger_f_black {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
-	    class cl3_dodge_charger_f_darkgreen {
+	    
+	class cl3_dodge_charger_f_darkgreen {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
-	    class cl3_dodge_charger_f_darkred {
+	    
+	class cl3_dodge_charger_f_darkred {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 30000;
         textures[] = {};
     };
-	    class Jonzie_Viper {
+	    
+	class Jonzie_Viper {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
-	    class S_Vantage_Red {
+	    
+	class S_Vantage_Red {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
-	    class S_Vantage_Blue {
+	    
+	class S_Vantage_Blue {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
-	    class S_Vantage_Black {
+	   
+	class S_Vantage_Black {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
-	    class S_Vantage_Yellow {
+	    
+	class S_Vantage_Yellow {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
-	    class S_Vantage_LightBlue {
+	    
+	class S_Vantage_LightBlue {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
-	    class S_Vantage_Purple {
+	    
+	class S_Vantage_Purple {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
-	    class S_Vantage_White {
+	    
+	class S_Vantage_White {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
-	    class cl3_dbs_volante_white {
+	    
+	class cl3_dbs_volante_white {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class cl3_dbs_volante_purple {
+	    
+	class cl3_dbs_volante_purple {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class cl3_dbs_volante_navy_blue {
+	    
+	class cl3_dbs_volante_navy_blue {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class cl3_dbs_volante_lime {
+	    
+	class cl3_dbs_volante_lime {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class cl3_dbs_volante_light_yellow {
+	    
+	class cl3_dbs_volante_light_yellow {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class cl3_dbs_volante_light_blue {
+	    
+	class cl3_dbs_volante_light_blue {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class cl3_dbs_volante_grey {
+	    
+	class cl3_dbs_volante_grey {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 
-	    class cl3_dbs_volante_burgundy {
+	class cl3_dbs_volante_burgundy {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class cl3_dbs_volante_black {
+	    
+	class cl3_dbs_volante_black {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	    class Mrshounka_agera_p_noir {
+	    
+	class Mrshounka_agera_p_noir {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 120000;
         textures[] = {};
     };
-	    class Mrshounka_agera_p_bleu {
+	    
+	class Mrshounka_agera_p_bleu {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 120000;
         textures[] = {};
     };
-	    class Mrshounka_agera_p_jaune {
+	    
+	class Mrshounka_agera_p_jaune {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 120000;
         textures[] = {};
     };
-	    class Mrshounka_lykan_c_noir {
+	    
+	class Mrshounka_lykan_c_noir {
         vItemSpace = 25;
         conditions = "license_civ_driver";
         price = 120000;
         textures[] = {};
     };
-	    class Mrshounka_lykan_c_bleufonce {
+	    
+	class Mrshounka_lykan_c_bleufonce {
         vItemSpace = 25;
         conditions = "license_civ_driver";
         price = 120000;
         textures[] = {};
     };
-	    class Mrshounka_lykan_c_rouge {
+	    
+	class Mrshounka_lykan_c_rouge {
         vItemSpace = 25;
         conditions = "license_civ_driver";
         price = 120000;
         textures[] = {};
     };
-	    class Mrshounka_lykan_c_jaune {
+	    
+	class Mrshounka_lykan_c_jaune {
         vItemSpace = 25;
         conditions = "license_civ_driver";
         price = 120000;
         textures[] = {};
     };
-	    class Mrshounka_lykan_c_rose {
+	    
+	class Mrshounka_lykan_c_rose {
         vItemSpace = 25;
         conditions = "license_civ_driver";
         price = 120000;
         textures[] = {};
     };
-	    class Mrshounka_lykan_c_grise {
+	    
+	class Mrshounka_lykan_c_grise {
         vItemSpace = 25;
         conditions = "license_civ_driver";
         price = 120000;
         textures[] = {};
     };
-	    class Mrshounka_lykan_c_violet {
+	    
+	class Mrshounka_lykan_c_violet {
         vItemSpace = 25;
         conditions = "license_civ_driver";
         price = 120000;
         textures[] = {};
     };
-	    class Mrshounka_lykan_c_orange {
+	   
+	class Mrshounka_lykan_c_orange {
         vItemSpace = 25;
         conditions = "license_civ_driver";
         price = 120000;
         textures[] = {};
     };
-	    class RDS_Golf4_Civ_01 {
+	    
+	class RDS_Golf4_Civ_01 {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 1000;
         textures[] = {};
     };
-	    class cl3_golf_mk2_white {
+	    
+	class cl3_golf_mk2_white {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
-	    class cl3_golf_mk2_purple {
+	    
+	class cl3_golf_mk2_purple {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
-	    class cl3_golf_mk2_navy_blue {
+	    
+	class cl3_golf_mk2_navy_blue {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
-	    class cl3_golf_mk2_lime {
+	    
+	class cl3_golf_mk2_lime {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
-	    class cl3_golf_mk2_light_yellow {
+	    
+	class cl3_golf_mk2_light_yellow {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
-	    class cl3_golf_mk2_light_blue {
+	
+    class cl3_golf_mk2_light_blue {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
-	    class cl3_golf_mk2_grey {
+	
+    class cl3_golf_mk2_grey {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
-	    class cl3_golf_mk2_burgundy {
+	
+    class cl3_golf_mk2_burgundy {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
-	    class cl3_golf_mk2_black {
+	
+    class cl3_golf_mk2_black {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
-	    class cl3_polo_gti_white {
+	
+    class cl3_polo_gti_white {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
-	    class cl3_polo_gti_purple {
+	
+    class cl3_polo_gti_purple {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
-	    class cl3_polo_gti_navy_blue {
+	
+    class cl3_polo_gti_navy_blue {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
-	    class cl3_polo_gti_lime {
+	
+    class cl3_polo_gti_lime {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
-	    class cl3_polo_gti_light_yellow {
+	
+    class cl3_polo_gti_light_yellow {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
-	    class cl3_polo_gti_light_blue {
+	
+    class cl3_polo_gti_light_blue {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
-	    class cl3_polo_gti_grey {
+	
+    class cl3_polo_gti_grey {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
-	    class cl3_polo_gti_burgundy {
+	
+    class cl3_polo_gti_burgundy {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
-	    class cl3_polo_gti_black {
+	
+    class cl3_polo_gti_black {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
-	    class Mrshounka_Volkswagen_Touareg_noir {
+	
+    class Mrshounka_Volkswagen_Touareg_noir {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 65000;
         textures[] = {};
     };
-	    class Mrshounka_Volkswagen_Touareg_bleufonce {
+	
+    class Mrshounka_Volkswagen_Touareg_bleufonce {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 65000;
         textures[] = {};
     };
-	    class Mrshounka_Volkswagen_Touareg_rouge {
+	
+    class Mrshounka_Volkswagen_Touareg_rouge {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 65000;
         textures[] = {};
     };
-	    class Mrshounka_Volkswagen_Touareg_jaune {
+	
+    class Mrshounka_Volkswagen_Touareg_jaune {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 65000;
         textures[] = {};
     };
-	    class Mrshounka_Volkswagen_Touareg_rose {
+	
+    class Mrshounka_Volkswagen_Touareg_rose {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 65000;
         textures[] = {};
     };
-	    class Mrshounka_Volkswagen_Touareg_grise {
+	
+    class Mrshounka_Volkswagen_Touareg_grise {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 65000;
         textures[] = {};
     };
-	    class Mrshounka_Volkswagen_Touareg_violet {
+	
+    class Mrshounka_Volkswagen_Touareg_violet {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 65000;
         textures[] = {};
     };
-	    class Mrshounka_Volkswagen_Touareg_orange {
+	
+    class Mrshounka_Volkswagen_Touareg_orange {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 65000;
         textures[] = {};
     };
-	    class cl3_veyron_blk_wht {
+	
+    class cl3_veyron_blk_wht {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class cl3_veyron_lblue_dblue {
+	
+    class cl3_veyron_lblue_dblue {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class cl3_veyron_lblue_lblue {
+	
+    class cl3_veyron_lblue_lblue {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class cl3_veyron_brn_blk {
+	
+    class cl3_veyron_brn_blk {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class Mrshounka_pagani_c_noir {
+	
+    class Mrshounka_pagani_c_noir {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class Mrshounka_pagani_c_bleufonce {
+	
+    class Mrshounka_pagani_c_bleufonce {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class Mrshounka_pagani_c_rouge {
+	
+    class Mrshounka_pagani_c_rouge {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class Mrshounka_pagani_c_jaune {
+	
+    class Mrshounka_pagani_c_jaune {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class Mrshounka_pagani_c_rose {
+	
+    class Mrshounka_pagani_c_rose {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class Mrshounka_pagani_c_grise {
+	
+    class Mrshounka_pagani_c_grise {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class Mrshounka_pagani_c_violet {
+	
+    class Mrshounka_pagani_c_violet {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class Mrshounka_pagani_c_orange {
+	
+    class Mrshounka_pagani_c_orange {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class shounka_limo_civ_noir {
+	
+    class shounka_limo_civ_noir {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class shounka_limo_civ_bleufonce {
+	
+    class shounka_limo_civ_bleufonce {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class shounka_limo_civ_rouge {
+	
+    class shounka_limo_civ_rouge {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class shounka_limo_civ_jaune {
+	
+    class shounka_limo_civ_jaune {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class shounka_limo_civ_rose {
+	
+    class shounka_limo_civ_rose {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class shounka_limo_civ_grise {
+	
+    class shounka_limo_civ_grise {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class shounka_limo_civ_violet {
+	
+    class shounka_limo_civ_violet {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class shounka_limo_civ_orange {
+	
+    class shounka_limo_civ_orange {
         vItemSpace = 40;
         conditions = "license_civ_driver";
         price = 125000;
         textures[] = {};
     };
-	    class shounka_buggy_noir {
+	
+    class shounka_buggy_noir {
         vItemSpace = 15;
         conditions = "license_civ_driver";
         price = 140000;
         textures[] = {};
     };
-	    class shounka_buggy_grise {
+	
+    class shounka_buggy_grise {
         vItemSpace = 15;
         conditions = "license_civ_driver";
         price = 140000;
         textures[] = {};
     };
-	    class shounka_buggy_rouge {
+	
+    class shounka_buggy_rouge {
         vItemSpace = 15;
         conditions = "license_civ_driver";
         price = 140000;
         textures[] = {};
     };
-	    class shounka_buggy_jauwne {
+	
+    class shounka_buggy_jauwne {
         vItemSpace = 15;
         conditions = "license_civ_driver";
         price = 140000;
         textures[] = {};
     };
-	    class shounka_buggy_bleufonce {
+	
+    class shounka_buggy_bleufonce {
         vItemSpace = 15;
         conditions = "license_civ_driver";
         price = 140000;
         textures[] = {};
     };
-	    class shounka_buggy_violet {
+	
+    class shounka_buggy_violet {
         vItemSpace = 15;
         conditions = "license_civ_driver";
         price = 140000;
         textures[] = {};
     };
-	    class shounka_buggy_orange {
+	
+    class shounka_buggy_orange {
         vItemSpace = 15;
         conditions = "license_civ_driver";
         price = 140000;
         textures[] = {};
     };
-	    class shounka_buggy_rose {
+	
+    class shounka_buggy_rose {
         vItemSpace = 15;
         conditions = "license_civ_driver";
         price = 140000;
         textures[] = {};
     };
-	    class Jonzie_Transit {
+	
+    class Jonzie_Transit {
         vItemSpace = 90;
         conditions = "license_civ_driver";
         price = 12500;
         textures[] = {};
     };
-	    class Jonzie_Raptor {
+	
+    class Jonzie_Raptor {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 12500;
         textures[] = {};
     };
-	    class Jonzie_XB {
+	
+    class Jonzie_XB {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 13000;
         textures[] = {};
     };
-	    class shounka_gt_noir {
+	
+    class shounka_gt_noir {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
-	    class shounka_gt_bleufonce {
+	
+    class shounka_gt_bleufonce {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
 		
-	    class shounka_gt_rouge {
+    class shounka_gt_rouge {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
 	
-	    class shounka_gt_jaune {
+    class shounka_gt_jaune {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
 	
-	    class shounka_gt_rose {
+    class shounka_gt_rose {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
 	
-	    class shounka_gt_grise {
+    class shounka_gt_grise {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
 	
-	    class shounka_gt_violet {
+    class shounka_gt_violet {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
 	
-	    class shounka_gt_orange {
+    class shounka_gt_orange {
         vItemSpace = 35;
         conditions = "license_civ_driver";
         price = 20000;
         textures[] = {};
     };
 	
-	    class Mrshounka_mustang_noir {
+    class Mrshounka_mustang_noir {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 	
-	    class Mrshounka_mustang_mat_n {
+    class Mrshounka_mustang_mat_n {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 	
-	    class Mrshounka_mustang_bleufonce {
+    class Mrshounka_mustang_bleufonce {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 	
-	    class Mrshounka_mustang_mat_b {
+    class Mrshounka_mustang_mat_b {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 	
-	    class Mrshounka_mustang_rouge {
+    class Mrshounka_mustang_rouge {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 	
-	    class Mrshounka_mustang_jaune {
+    class Mrshounka_mustang_jaune {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 	
-	    class Mrshounka_mustang_rose {
+    class Mrshounka_mustang_rose {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 	
-	    class Mrshounka_mustang_grise {
+    class Mrshounka_mustang_grise {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 	
-	    class Mrshounka_mustang_violet {
+    class Mrshounka_mustang_violet {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 	
-	    class Mrshounka_mustang_orange {
+    class Mrshounka_mustang_orange {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 25000;
         textures[] = {};
     };
 
-	    class Mrshounka_raptor2_noir {
+    class Mrshounka_raptor2_noir {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 	
-	    class Mrshounka_raptor2_bleufonce {
+    class Mrshounka_raptor2_bleufonce {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 	
-	    class Mrshounka_raptor2_rouge {
+    class Mrshounka_raptor2_rouge {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 	
-	    class Mrshounka_raptor2_jaune {
+    class Mrshounka_raptor2_jaune {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 	
-	    class Mrshounka_raptor2_rose {
+    class Mrshounka_raptor2_rose {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 	
-	    class Mrshounka_raptor2_grise {
+    class Mrshounka_raptor2_grise {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 	
-	    class Mrshounka_raptor2_violet {
+    class Mrshounka_raptor2_violet {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 	
-	    class Mrshounka_raptor2_orange {
+    class Mrshounka_raptor2_orange {
         vItemSpace = 60;
         conditions = "license_civ_driver";
         price = 27000;
         textures[] = {};
     };
 	
-	    class cl3_insignia_white {
+    class cl3_insignia_white {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 27500;
         textures[] = {};
     };
 	
-	    class cl3_insignia_purple {
+    class cl3_insignia_purple {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 27500;
         textures[] = {};
     };
 	
-	    class cl3_insignia_navy_blue {
+    class cl3_insignia_navy_blue {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 27500;
         textures[] = {};
     };
 	
-	    class cl3_insignia_lime {
+   class cl3_insignia_lime {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 27500;
         textures[] = {};
     };
 	
-	    class cl3_insignia_light_yellow {
+    class cl3_insignia_light_yellow {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 27500;
         textures[] = {};
     };
 	
-	    class cl3_insignia_light_blue {
+    class cl3_insignia_light_blue {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 27500;
         textures[] = {};
     };
 	
-	    class cl3_insignia_grey {
+    class cl3_insignia_grey {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 27500;
         textures[] = {};
     };
 	
-	    class cl3_insignia_burgundy {
+    class cl3_insignia_burgundy {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 27500;
         textures[] = {};
     };
 	
-	    class cl3_insignia_black {
+    class cl3_insignia_black {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 27500;
         textures[] = {};
     };
 	
-	    class cl3_e63_amg_white {
+    class cl3_e63_amg_white {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class cl3_e63_amg_purple {
+    class cl3_e63_amg_purple {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class cl3_e63_amg_navy_blue {
+    class cl3_e63_amg_navy_blue {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
@@ -5016,1158 +5278,1133 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
     };
 	
-	    class cl3_e63_amg_light_yellow {
+    class cl3_e63_amg_light_yellow {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class cl3_e63_amg_light_blue {
+    class cl3_e63_amg_light_blue {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class cl3_e63_amg_grey {
+    class cl3_e63_amg_grey {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class cl3_e63_amg_burgundy {
+    class cl3_e63_amg_burgundy {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class cl3_e63_amg_black {
+    class cl3_e63_amg_black {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class Mrshounka_c63_2015_noir {
+    class Mrshounka_c63_2015_noir {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class Mrshounka_c63_2015_mat_n {
+    class Mrshounka_c63_2015_mat_n {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class Mrshounka_c63_2015_bleufonce {
+    class Mrshounka_c63_2015_bleufonce {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class Mrshounka_c63_2015_mat_b {
+    class Mrshounka_c63_2015_mat_b {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class Mrshounka_c63_2015_rouge {
+    class Mrshounka_c63_2015_rouge {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class Mrshounka_c63_2015_jaune {
+    class Mrshounka_c63_2015_jaune {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class Mrshounka_c63_2015_rose {
+    class Mrshounka_c63_2015_rose {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class Mrshounka_c63_2015_grise {
+    class Mrshounka_c63_2015_grise {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class Mrshounka_c63_2015_violet {
+    class Mrshounka_c63_2015_violet {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class Mrshounka_c63_2015_orange {
+    class Mrshounka_c63_2015_orange {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class shounka_clk_noir {
-        vItemSpace = 55;
-        conditions = "license_civ_driver";
-        price = 50000;
-        textures[] = {};
-    };
-	
-	    class shounka_clk_bleufonce {
+    class shounka_clk_noir {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class shounka_clk_rouge {
+    class shounka_clk_bleufonce {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class shounka_clk_jaune {
+    class shounka_clk_rouge {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class shounka_clk_rose {
+    class shounka_clk_jaune {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class shounka_clk_grise {
+    class shounka_clk_rose {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class shounka_clk_violet {
+    class shounka_clk_grise {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class shounka_clk_orange {
+    class shounka_clk_violet {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class shounka_a3_spr_civ_noir {
+    class shounka_clk_orange {
+        vItemSpace = 55;
+        conditions = "license_civ_driver";
+        price = 50000;
+        textures[] = {};
+    };
+	
+    class shounka_a3_spr_civ_noir {
         vItemSpace = 150;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class shounka_a3_spr_civ_bleufonce {
+    class shounka_a3_spr_civ_bleufonce {
         vItemSpace = 150;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class shounka_a3_spr_civ_rouge {
+    class shounka_a3_spr_civ_rouge {
         vItemSpace = 150;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class shounka_a3_spr_civ_jaune {
+    class shounka_a3_spr_civ_jaune {
         vItemSpace = 150;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class shounka_a3_spr_civ_rose {
+    class shounka_a3_spr_civ_rose {
         vItemSpace = 150;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class shounka_a3_spr_civ_grise {
+    class shounka_a3_spr_civ_grise {
         vItemSpace = 150;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class shounka_a3_spr_civ_violet {
+    class shounka_a3_spr_civ_violet {
         vItemSpace = 150;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class shounka_a3_spr_civ_orange {
+    class shounka_a3_spr_civ_orange {
         vItemSpace = 150;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
-	
-	    class Mrshounka_a3_smart_civ_noir {
+
+    class Mrshounka_a3_smart_civ_noir {
         vItemSpace = 25;
         conditions = "license_civ_driver";
         price = 12500;
         textures[] = {};
     };
 	
-	    class Mrshounka_a3_smart_civ_bleu {
+    class Mrshounka_a3_smart_civ_bleu {
         vItemSpace = 25;
         conditions = "license_civ_driver";
         price = 12500;
         textures[] = {};
     };
 	
-	    class shounka_a3_audiq7_v2_gendarmerie {
+    class shounka_a3_audiq7_v2_gendarmerie {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 15000;
         textures[] = {};
     };
 	
-	    class shounka_a3_rs5_civ_noir {
+    class shounka_a3_rs5_civ_noir {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class shounka_a3_rs5_civ_bleufonce {
+    class shounka_a3_rs5_civ_bleufonce {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class shounka_a3_rs5_civ_rouge {
+    class shounka_a3_rs5_civ_rouge {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class shounka_a3_rs5_civ_jaune {
+    class shounka_a3_rs5_civ_jaune {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class shounka_a3_rs5_civ_rose {
+    class shounka_a3_rs5_civ_rose {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class shounka_a3_rs5_civ_grise {
+    class shounka_a3_rs5_civ_grise {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class shounka_a3_rs5_civ_violet {
+    class shounka_a3_rs5_civ_violet {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class shounka_a3_rs5_civ_orange {
+    class shounka_a3_rs5_civ_orange {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class cl3_r8_spyder_white {
+    class cl3_r8_spyder_white {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class cl3_r8_spyder_purple {
+    class cl3_r8_spyder_purple {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class cl3_r8_spyder_navy_blue {
+    class cl3_r8_spyder_navy_blue {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class cl3_r8_spyder_lime {
+    class cl3_r8_spyder_lime {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class cl3_r8_spyder_light_yellow {
+    class cl3_r8_spyder_light_yellow {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class cl3_r8_spyder_light_blue {
+    class cl3_r8_spyder_light_blue {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class cl3_r8_spyder_grey {
+    class cl3_r8_spyder_grey {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class cl3_r8_spyder_burgundy {
+    class cl3_r8_spyder_burgundy {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class cl3_r8_spyder_black {
+    class cl3_r8_spyder_black {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 60000;
         textures[] = {};
     };
 	
-	    class Mrshounka_rs4_civ_noir {
+    class Mrshounka_rs4_civ_noir {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 	
-	    class Mrshounka_rs4_civ_bleufonce {
+    class Mrshounka_rs4_civ_bleufonce {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 	
-	    class Mrshounka_rs4_civ_rouge {
+    class Mrshounka_rs4_civ_rouge {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 	
-	    class Mrshounka_rs4_civ_jaune {
+    class Mrshounka_rs4_civ_jaune {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 	
-	    class Mrshounka_rs4_civ_rose {
+    class Mrshounka_rs4_civ_rose {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 	
-	    class Mrshounka_rs4_civ_grise {
+    class Mrshounka_rs4_civ_grise {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 	
-	    class Mrshounka_rs4_civ_violet {
+    class Mrshounka_rs4_civ_violet {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 	
-	    class Mrshounka_rs4_civ_orange {
+    class Mrshounka_rs4_civ_orange {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 38000;
         textures[] = {};
     };
 	
-	    class shounka_rs6_noir {
+    class shounka_rs6_noir {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 	
-	    class shounka_rs6_bleufonce {
+    class shounka_rs6_bleufonce {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 	
-	    class shounka_rs6_rouge {
+    class shounka_rs6_rouge {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 	
-	    class shounka_rs6_jaune {
+    class shounka_rs6_jaune {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 	
-	    class shounka_rs6_rose {
+    class shounka_rs6_rose {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 	
-	    class shounka_rs6_grise {
+    class shounka_rs6_grise {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 	
-	    class shounka_rs6_violet {
+    class shounka_rs6_violet {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 	
-	    class shounka_rs6_orange {
+    class shounka_rs6_orange {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 	
-	    class shounka_a3_audiq7_bleu {
+    class shounka_a3_audiq7_bleu {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 42000;
         textures[] = {};
     };
 	
-	    class cl3_z4_2008_white {
+    class cl3_z4_2008_white {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 37500;
         textures[] = {};
     };
 	
-	    class cl3_z4_2008_purple {
+    class cl3_z4_2008_purple {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 37500;
         textures[] = {};
     };
 	
-	    class cl3_z4_2008_navy_blue {
+    class cl3_z4_2008_navy_blue {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 37500;
         textures[] = {};
     };
 	
-	    class cl3_z4_2008_lime {
+    class cl3_z4_2008_lime {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 37500;
         textures[] = {};
     };
 	
-	    class cl3_z4_2008_light_yellow {
+    class cl3_z4_2008_light_yellow {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 37500;
         textures[] = {};
     };
 	
-	    class cl3_z4_2008_light_blue {
+    class cl3_z4_2008_light_blue {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 37500;
         textures[] = {};
     };
 	
-	    class cl3_z4_2008_grey {
+    class cl3_z4_2008_grey {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 37500;
         textures[] = {};
     };
 	
-	    class cl3_z4_2008_burgundy {
+    class cl3_z4_2008_burgundy {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 37500;
         textures[] = {};
     };
 	
-	    class cl3_z4_2008_black {
+    class cl3_z4_2008_black {
         vItemSpace = 45;
         conditions = "license_civ_driver";
         price = 37500;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm1_civ_noir {
+    class Mrshounka_bmwm1_civ_noir {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm1_civ_bleufonce {
+    class Mrshounka_bmwm1_civ_bleufonce {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm1_civ_rouge {
+    class Mrshounka_bmwm1_civ_rouge {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm1_civ_jaune {
+    class Mrshounka_bmwm1_civ_jaune {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm1_civ_rose {
+    class Mrshounka_bmwm1_civ_rose {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm1_civ_grise {
+    class Mrshounka_bmwm1_civ_grise {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm1_civ_violet {
+    class Mrshounka_bmwm1_civ_violet {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm1_civ_orange {
+    class Mrshounka_bmwm1_civ_orange {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 40000;
         textures[] = {};
     };
 
-	    class Mrshounka_bmwm6_noir {
+    class Mrshounka_bmwm6_noir {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm6_bleufonce {
+    class Mrshounka_bmwm6_bleufonce {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm6_rouge {
+    class Mrshounka_bmwm6_rouge {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm6_jaune {
+    class Mrshounka_bmwm6_jaune {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm6_rose {
+    class Mrshounka_bmwm6_rose {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm6_grise {
+    class Mrshounka_bmwm6_grise {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm6_violet {
+    class Mrshounka_bmwm6_violet {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class Mrshounka_bmwm6_orange {
+	class Mrshounka_bmwm6_orange {
         vItemSpace = 55;
         conditions = "license_civ_driver";
         price = 50000;
         textures[] = {};
     };
 	
-	    class cl3_e60_m5_white {
+	class cl3_e60_m5_white {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 	
-	    class cl3_e60_m5_purple {
+	class cl3_e60_m5_purple {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 	
-	    class cl3_e60_m5_navy_blue {
+	class cl3_e60_m5_navy_blue {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 	
-	    class cl3_e60_m5_lime {
+	class cl3_e60_m5_lime {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 	
-	    class cl3_e60_m5_light_yellow {
+	class cl3_e60_m5_light_yellow {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 	
-	    class cl3_e60_m5_light_blue {
+	class cl3_e60_m5_light_blue {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 	
-	    class cl3_e60_m5_grey {
+	class cl3_e60_m5_grey {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 	
-	    class cl3_e60_m5_burgundy {
+	class cl3_e60_m5_burgundy {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 	
-	    class cl3_e60_m5_black {
+	class cl3_e60_m5_black {
         vItemSpace = 50;
         conditions = "license_civ_driver";
         price = 45000;
         textures[] = {};
     };
 	
-	    class CL3_Zamak_Transport_open_01 {
+	class CL3_Zamak_Transport_open_01 {
         vItemSpace = 225;
         conditions = "license_civ_trucking";
         price = 55000;
         textures[] = {};
     };
 	
-	    class CL3_Zamak_Transport_open_02 {
+	class CL3_Zamak_Transport_open_02 {
         vItemSpace = 225;
         conditions = "license_civ_trucking";
         price = 55000;
         textures[] = {};
     };
 	
-	    class CL3_Zamak_Transport_open_03 {
+	class CL3_Zamak_Transport_open_03 {
         vItemSpace = 225;
         conditions = "license_civ_trucking";
         price = 55000;
         textures[] = {};
     };
 	
-	    class CL3_Zamak_Transport_open_04 {
+	class CL3_Zamak_Transport_open_04 {
         vItemSpace = 225;
         conditions = "license_civ_trucking";
         price = 55000;
         textures[] = {};
     };
 	
-	    class CL3_Zamak_Transport_covered_01 {
+	class CL3_Zamak_Transport_covered_01 {
         vItemSpace = 325;
         conditions = "license_civ_trucking";
         price = 75000;
         textures[] = {};
     };
 	
-	    class CL3_Zamak_Transport_covered_02 {
+	class CL3_Zamak_Transport_covered_02 {
         vItemSpace = 325;
         conditions = "license_civ_trucking";
         price = 75000;
         textures[] = {};
     };
 	
-	    class CL3_Zamak_Transport_covered_03 {
+	class CL3_Zamak_Transport_covered_03 {
         vItemSpace = 325;
         conditions = "license_civ_trucking";
         price = 75000;
         textures[] = {};
     };
 	
-	    class CL3_Zamak_Transport_covered_04 {
+	class CL3_Zamak_Transport_covered_04 {
         vItemSpace = 325;
         conditions = "license_civ_trucking";
         price = 75000;
         textures[] = {};
     };
 	
-	    class Jonzie_Western {
+	class Jonzie_Western {
         vItemSpace = 200;
         conditions = "license_civ_trucking";
         price = 75000;
         textures[] = {};
     };
 	
-	    class shounka_a3_renaultmagnum_f {
+	class shounka_a3_renaultmagnum_f {
         vItemSpace = 350;
         conditions = "license_civ_trucking";
         price = 80000;
         textures[] = {};
     };
 	
-	    class Jonzie_Flat_Bed {
+	class Jonzie_Flat_Bed {
         vItemSpace = 300;
         conditions = "license_civ_trucking";
         price = 75000;
         textures[] = {};
     };
 	
-	    class Jonzie_Box_Truck {
+	class Jonzie_Box_Truck {
         vItemSpace = 350;
         conditions = "license_civ_trucking";
         price = 75000;
         textures[] = {};
     };
 	
-	    class Jonzie_Log_Truck {
+	class Jonzie_Log_Truck {
         vItemSpace = 325;
         conditions = "license_civ_trucking";
         price = 80000;
         textures[] = {};
     };
 	
-	    class cl3_mackr_blue {
+	class cl3_mackr_blue {
         vItemSpace = 225;
         conditions = "license_civ_trucking";
         price = 70000;
         textures[] = {};
     };
 	
-	    class Jonzie_Superliner {
+	class Jonzie_Superliner {
         vItemSpace = 200;
         conditions = "license_civ_trucking";
         price = 75000;
         textures[] = {};
     };
 	
-	    class cl3_mackr_flat_blue {
+	class cl3_mackr_flat_blue {
         vItemSpace = 300;
         conditions = "license_civ_trucking";
         price = 75000;
         textures[] = {};
     };
 	
-	    class cl3_mackr_del_blue {
+	class cl3_mackr_del_blue {
         vItemSpace = 350;
         conditions = "license_civ_trucking";
         price = 80000;
         textures[] = {};
     };
 	
-	    class RDS_Ikarus_Civ_01 {
+	class RDS_Ikarus_Civ_01 {
         vItemSpace = 45;
         conditions = "bus";
         price = 12500;
         textures[] = {};
     };
 	
-	    class RDS_Ikarus_Civ_02 {
+	class RDS_Ikarus_Civ_02 {
         vItemSpace = 45;
         conditions = "bus";
         price = 12500;
         textures[] = {};
     };
 	
-	    class CL3_bus_cl_blue {
+	class CL3_bus_cl_blue {
         vItemSpace = 50;
         conditions = "bus";
         price = 15000;
         textures[] = {};
     };
 	
-	    class CL3_bus_cl_green {
+	class CL3_bus_cl_green {
         vItemSpace = 50;
         conditions = "bus";
         price = 15000;
         textures[] = {};
     };
 	
-	    class CL3_bus_cl_yellow {
+	class CL3_bus_cl_yellow {
         vItemSpace = 50;
         conditions = "bus";
         price = 15000;
         textures[] = {};
     };
 	
-	    class CL3_bus_cl_purple {
+	class CL3_bus_cl_purple {
         vItemSpace = 50;
         conditions = "bus";
         price = 15000;
         textures[] = {};
     };
 	
-	    class CL3_bus_cl_grey {
+	class CL3_bus_cl_grey {
         vItemSpace = 50;
         conditions = "bus";
         price = 15000;
         textures[] = {};
     };
 	
-	    class CL3_bus_cl_black {
+	class CL3_bus_cl_black {
         vItemSpace = 50;
         conditions = "bus";
         price = 15000;
         textures[] = {};
     };
 	
-	    class cg_jeep_blinde_noir {
+	class cg_jeep_blinde_noir {
         vItemSpace = 40;
         conditions = "";
         price = 25000;
         textures[] = {};
 	};
-	    class cg_jeep_blinde_white {
+	class cg_jeep_blinde_white {
         vItemSpace = 40;
         conditions = "";
         price = 90000;
         textures[] = {};
 	};
 	  
-		class cg_jeep_blinde_rouge {
+	class cg_jeep_blinde_rouge {
         vItemSpace = 40;
         conditions = "";
         price = 25000;
         textures[] = {};
 	};
 	
-	    class shounka_monsteur {
+	class shounka_monsteur {
         vItemSpace = 50;
         conditions = "";
         price = 45000;
         textures[] = {};
 	};
 	  
-	    class shounka_monsteur_bleufonce {
+	class shounka_monsteur_bleufonce {
         vItemSpace = 50;
         conditions = "";
         price = 45000;
         textures[] = {};
 	};
 	
-        class shounka_monsteur_grise {
+    class shounka_monsteur_grise {
         vItemSpace = 50;
         conditions = "";
         price = 45000;
         textures[] = {};
 	};
 	
-        class shounka_monsteur_jaune {
+    class shounka_monsteur_jaune {
         vItemSpace = 50;
         conditions = "";
         price = 45000;
         textures[] = {};
 	};
 	
-        class shounka_monsteur_noir {
+    class shounka_monsteur_noir {
         vItemSpace = 50;
         conditions = "";
         price = 45000;
         textures[] = {};
 	};
 	
-        class shounka_monsteur_orange {
+    class shounka_monsteur_orange {
         vItemSpace = 50;
         conditions = "";
         price = 45000;
         textures[] = {};
 	};
 	
-        class shounka_monsteur_rose {
+    class shounka_monsteur_rose {
         vItemSpace = 50;
         conditions = "";
         price = 45000;
         textures[] = {};
 	};
 	
-        class shounka_monsteur_rouge {
+    class shounka_monsteur_rouge {
         vItemSpace = 50;
         conditions = "";
         price = 45000;
         textures[] = {};
 	};
 	
-        class shounka_monsteur_violet {
+    class shounka_monsteur_violet {
         vItemSpace = 50;
         conditions = "";
         price = 45000;
         textures[] = {};
 	};
 	
-        class cl3_z4_2008_camo {
+    class cl3_z4_2008_camo {
         vItemSpace = 35;
         conditions = "";
         price = 26000;
         textures[] = {};
 	};
 	
-        class cl3_carrera_gt_camo {
+    class cl3_carrera_gt_camo {
         vItemSpace = 40;
         conditions = "";
         price = 43000;
         textures[] = {};
 	};
 	
-        class cl3_e63_amg_camo {
+    class cl3_e63_amg_camo {
         vItemSpace = 35;
         conditions = "";
         price = 24000;
         textures[] = {};
 	};
 	
-        class cl3_taurus_camo {
+    class cl3_taurus_camo {
         vItemSpace = 30;
         conditions = "";
         price = 20000;
         textures[] = {};
 	};
 	
-        class cl3_reventon_camo {
+	class cl3_reventon_camo {
         vItemSpace = 35;
         conditions = "";
         price = 65000;
         textures[] = {};
 	};	
-        class Jonzie_Forklift {
+	
+	class Jonzie_Forklift {
         vItemSpace = 35;
         conditions = "";
         price = 65000;
         textures[] = {};
 	};
-        class cl3_enzo_camo {
+	
+	class cl3_enzo_camo {
         vItemSpace = 35;
         conditions = "";
         price = 125000;
         textures[] = {};
 	};
-        class bv_gtr_spec_v_gold {
+	
+	class bv_gtr_spec_v_gold {
         vItemSpace = 35;
         conditions = "";
         price = 135000;
         textures[] = {};
 	};
-        class cl3_civic_vti_camo {
+	
+	class cl3_civic_vti_camo {
         vItemSpace = 40;
         conditions = "";
         price = 12000;
         textures[] = {};
 	};
 
-        class I_Heli_light_03_unarmed_F {
+    class I_Heli_light_03_unarmed_F {
         vItemSpace = 55;
         conditions = "";
         price = 300000;
         textures[] = {};
 	};
 	
-        class I_Heli_Transport_02_F {
+    class I_Heli_Transport_02_F {
         vItemSpace = 60;
         conditions = "";
         price = 300000;
         textures[] = {};
 	};
 	
-        class EVO_Audi_RS4_PD {
+    class EVO_Audi_RS4_PD {
         vItemSpace = 50;
         conditions = "";
         price = 1500;
         textures[] = {};
 	};
 	
-        class bv_the_crowner_cop_emt {
+    class bv_the_crowner_cop_emt {
         vItemSpace = 50;
         conditions = "";
         price = 2500;
         textures[] = {};
 	};
 	
-        class Urbanized_LP700_P {
+    class Urbanized_LP700_P {
         vItemSpace = 50;
         conditions = "";
         price = 1500;
         textures[] = {};
 	};
 	
-        class Urbanized_67Mustang_P {
+    class Urbanized_67Mustang_P {
         vItemSpace = 50;
         conditions = "";
         price = 1500;
         textures[] = {};
 	};
 	
-        class Jonzie_Ambulance {
+    class Jonzie_Ambulance {
         vItemSpace = 50;
         conditions = "";
         price = 2500;
         textures[] = {};
 	};
 	
-        class bv_458_cop_patrol {
+    class AM_Holden_EMS {
         vItemSpace = 50;
         conditions = "";
         price = 2500;
         textures[] = {};
 	};
 	
-         class AM_Holden_EMS {
+    class Jonzie_Tow_Truck {
         vItemSpace = 50;
         conditions = "";
         price = 2500;
         textures[] = {};
 	};
 	
-         class bv_shelly_cop_patrol {
+	class EMS_Orca {
         vItemSpace = 50;
         conditions = "";
         price = 2500;
         textures[] = {};
 	};
 	
-         class Jonzie_Tow_Truck {
+    class EC635_SAR {
         vItemSpace = 50;
         conditions = "";
         price = 2500;
         textures[] = {};
 	};
 	
-         class bv_the_crowner_cop_patrol {
+    class bv_e60_m5_cop_emt {
         vItemSpace = 50;
         conditions = "";
         price = 2500;
         textures[] = {};
 	};
 	
-         class bv_e60_m5_cop_patrol {
-        vItemSpace = 50;
-        conditions = "";
-        price = 2500;
-        textures[] = {};
-		
-	};
-	
-         class EMS_Orca {
+    class EC635_DAES_Lifeliner {
         vItemSpace = 50;
         conditions = "";
         price = 2500;
         textures[] = {};
 	};
 	
-         class EC635_SAR {
-        vItemSpace = 50;
-        conditions = "";
-        price = 2500;
-        textures[] = {};
-	};
-	
-         class bv_e60_m5_cop_emt {
-        vItemSpace = 50;
-        conditions = "";
-        price = 2500;
-        textures[] = {};
-	};
-	
-         class EC635_DAES_Lifeliner {
-        vItemSpace = 50;
-        conditions = "";
-        price = 2500;
-        textures[] = {};
-	};
-	
-         class FPT_MAN_base_F {
+    class FPT_MAN_base_F {
         vItemSpace = 50;
         conditions = "";
         price = 2500;
@@ -6257,43 +6494,50 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 2500;
         textures[] = {};
 	};
-
-	class shounka_a3_gendsprinter {
+	
+	class red_cvpi_06_p_ems {
         vItemSpace = 50;
         conditions = "";
-        price = 10;
+        price = 2500;
         textures[] = {};
 	};
 	
-	class red_charger_12_p_statetrooper {
+	class ivory_ems {
+        vItemSpace = 50;
+        conditions = "";
+        price = 2500;
+        textures[] = {};
+	};
+	
+	class red_charger_12_p_lvst {
         vItemSpace = 50;
         conditions = "license_cop_swat";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_charger_12_p_u_statetrooper {
+	class red_charger_12_p_u_lvst {
         vItemSpace = 50;
         conditions = "license_cop_swat";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_charger_15_p_statetrooper {
+	class red_charger_15_p_lvst {
         vItemSpace = 50;
         conditions = "license_cop_swat";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_charger_15_p_u_statetrooper {
+	class red_charger_15_p_u_lvst {
         vItemSpace = 50;
         conditions = "license_cop_swat";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_explorer_16_p_statetrooper {
+	class red_explorer_16_p_lvst {
         vItemSpace = 50;
         conditions = "license_cop_swat";
         price = 10;
@@ -6307,7 +6551,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_charger_15_p_u_sheriff {
+	class red_charger_15_p_u_lvsd {
         vItemSpace = 50;
         conditions = "";
         price = 10;
@@ -6328,14 +6572,14 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_charger_15_p_fbi {
+	class red_charger_15_p_lvfb {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_charger_15_p_u_fbi {
+	class red_charger_15_p_u_lvfb {
         vItemSpace = 50;
         conditions = "";
         price = 10;
@@ -6349,7 +6593,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_cvpi_06_p_fbi {
+	class red_cvpi_06_p_lvfb {
         vItemSpace = 50;
         conditions = "";
         price = 10;
@@ -6363,14 +6607,21 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_f350_08_p_sheriff {
+	class red_f350_08_p_lvsd {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_explorer_16_p_sheriff {
+	class red_explorer_16_p_lvsd {
+        vItemSpace = 50;
+        conditions = "";
+        price = 10;
+        textures[] = {};
+	};
+	
+	class ivory_sheriff {
         vItemSpace = 50;
         conditions = "";
         price = 10;
@@ -6384,7 +6635,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_explorer_16_p_fbi {
+	class red_explorer_16_p_lvfb {
         vItemSpace = 50;
         conditions = "";
         price = 10;
@@ -6398,7 +6649,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_taurus_10_p_fbi {
+	class red_taurus_10_p_lvfb {
         vItemSpace = 50;
         conditions = "";
         price = 10;
@@ -6412,7 +6663,21 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_taurus_10_p_u_fbi {
+	class ivory_wrx_marked {
+        vItemSpace = 50;
+        conditions = "";
+        price = 10;
+        textures[] = {};
+	};
+	
+	class red_taurus_10_p_u_lvfb {
+        vItemSpace = 50;
+        conditions = "";
+        price = 10;
+        textures[] = {};
+	};
+	
+	class ivory_federal {
         vItemSpace = 50;
         conditions = "";
         price = 10;
@@ -6426,16 +6691,23 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_suburban_15_p_u_fbi {
+	class red_suburban_15_p_u_lvfb {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_suburban_15_p_u_statetrooper {
+	class red_suburban_15_p_u_lvst {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_cop_swat";
+        price = 10;
+        textures[] = {};
+	};
+	
+	class ivory_state {
+        vItemSpace = 50;
+        conditions = "license_cop_swat";
         price = 10;
         textures[] = {};
 	};
@@ -6447,163 +6719,107 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_suburban_15_p_fbi {
+	class red_suburban_15_p_lvfb {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_suburban_15_p_statetrooper {
+	class red_suburban_15_p_lvst {
+        vItemSpace = 50;
+        conditions = "license_cop_swat";
+        price = 10;
+        textures[] = {};
+	};
+	
+	class red_charger_15_p_lvsd {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_charger_15_p_sheriff {
+	class red_cvpi_06_p_lvsd {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_cvpi_06_p_sheriff {
+	class red_charger_12_p_lvsd {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_charger_12_p_sheriff {
+	class red_charger_12_p_u_lvsd {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_charger_12_p_u_sheriff {
+	class red_kawasaki_10_p_lvsd {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_kawasaki_10_p_sheriff {
+	class red_suburban_15_p_u_lvsd {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_suburban_15_p_u_sheriff {
+	class red_suburban_15_p_lvsd {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_suburban_15_p_sheriff {
+	class red_taurus_10_p_lvsd {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_taurus_10_p_sheriff {
+	class red_taurus_10_p_u_lvsd {
         vItemSpace = 50;
         conditions = "";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_charger_15_p_patrol {
+	class red_taurus_10_p_u_lvst {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_cop_swat";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_charger_15_p_u_patrol {
+	class red_taurus_10_p_lvst {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_cop_swat";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_taurus_10_p_patrol {
+	class red_cvpi_06_p_lvst {
         vItemSpace = 50;
-        conditions = "";
+        conditions = "license_cop_swat";
         price = 10;
         textures[] = {};
 	};
 	
-	class red_taurus_10_p_u_patrol {
+	class red_kawasaki_10_p_lvst {
         vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_charger_15_p_sert {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_charger_15_p_u_sert {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_taurus_10_p_sert{
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_taurus_10_p_u_sert {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_taurus_10_p_u_trooper {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_taurus_10_p_trooper {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_cvpi_06_p_trooper {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_f350_08_p_parkranger {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_kawasaki_10_p_trooper {
-        vItemSpace = 50;
-        conditions = "";
+        conditions = "license_cop_swat";
         price = 10;
         textures[] = {};
 	};
@@ -6679,41 +6895,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	};
 	
 	class red_camaro_12_p_u_darkred {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_camaro_12_p_u_custom1 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_camaro_12_p_u_custom2 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_camaro_12_p_u_custom3 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_camaro_12_p_u_custom4 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_camaro_12_p_u_custom5 {
         vItemSpace = 50;
         conditions = "";
         price = 10;
@@ -6804,7 +6985,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_charger_12_p_u_fbi {
+	class red_charger_12_p_u_lvfb {
         vItemSpace = 50;
         conditions = "";
         price = 10;
@@ -6818,28 +6999,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_charger_12_p_fbi {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_charger_12_p_u_custom3 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_charger_12_p_u_custom4 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_charger_12_p_u_custom5 {
+	class red_charger_12_p_lvfb {
         vItemSpace = 50;
         conditions = "";
         price = 10;
@@ -6923,41 +7083,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_charger_15_p_u_custom1 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_charger_15_p_u_custom2 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_charger_15_p_u_custom3 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_charger_15_p_u_custom4 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_charger_15_p_u_custom5 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
 	class red_panamera_10_p_u_black {
         vItemSpace = 50;
         conditions = "";
@@ -7029,41 +7154,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	};
 	
 	class red_panamera_10_p_u_darkred {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_panamera_10_p_u_custom1 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_panamera_10_p_u_custom2 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_panamera_10_p_u_custom3 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_panamera_10_p_u_custom4 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_panamera_10_p_u_custom5 {
         vItemSpace = 50;
         conditions = "";
         price = 10;
@@ -7162,41 +7252,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = {};
 	};
 	
-	class red_suburban_15_p_u_custom1 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_suburban_15_p_u_custom2 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_suburban_15_p_u_custom3 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_suburban_15_p_u_custom4 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_suburban_15_p_u_custom5 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
 	class red_taurus_10_p_u_black {
         vItemSpace = 50;
         conditions = "";
@@ -7268,41 +7323,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
 	};
 	
 	class red_taurus_10_p_u_darkred {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_taurus_10_p_u_custom1 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_taurus_10_p_u_custom2 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_taurus_10_p_u_custom3 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_taurus_10_p_u_custom4 {
-        vItemSpace = 50;
-        conditions = "";
-        price = 10;
-        textures[] = {};
-	};
-	
-	class red_taurus_10_p_u_custom5 {
         vItemSpace = 50;
         conditions = "";
         price = 10;
@@ -8994,14 +9014,6 @@ will modify the virtual space and the price of the vehicle, but other informatio
         conditions = "license_civ_driver";
         price = 85000;
         textures[] = {};
-	};
-	
-
-    class shounka_nemo_pompier {
-        vItemSpace = 250;
-        conditions = "";
-        price = 27500;
-        textures[] = { };
     };
 
     class cl3_dodge_chargerum_o_adac {
@@ -9025,21 +9037,7 @@ will modify the virtual space and the price of the vehicle, but other informatio
         textures[] = { };
     };
 
-    class cl3_q7_clpd_etu {
-        vItemSpace = 250;
-        conditions = "";
-        price = 27500;
-        textures[] = { };
-    };
-
     class cl3_f150raptor_orange {
-        vItemSpace = 250;
-        conditions = "";
-        price = 27500;
-        textures[] = { };
-    };
-
-    class cl3_suv_emt_MR {
         vItemSpace = 250;
         conditions = "";
         price = 27500;
@@ -9059,36 +9057,43 @@ will modify the virtual space and the price of the vehicle, but other informatio
         price = 27500;
         textures[] = { };
     };
-
-    class red_towtruck_08_orange {
-        vItemSpace = 250;
-        conditions = "";
-        price = 27500;
-        textures[] = { };
-    };
 	
 	class red_towtruck_08_sac {
         vItemSpace = 250;
         conditions = "";
-        price = 27500;
+        price = 2500;
         textures[] = { };
     };
 
     class cl3_fire_rescue_yellow {
         vItemSpace = 250;
         conditions = "";
-        price = 27500;
+        price = 2500;
         textures[] = { };
     };
 
     class EC635_ADAC {
         vItemSpace = 250;
         conditions = "";
-        price = 27500;
+        price = 2500;
+        textures[] = { };
+	};
+	
+    class EC635_Unarmed {
+        vItemSpace = 150;
+        conditions = "";
+        price = 2500;
         textures[] = { };
     };
 	
-    class MELB_H6M {
+    class MELB_H6M_LVPD {
+        vItemSpace = 150;
+        conditions = "";
+        price = 2500;
+        textures[] = { };
+	};
+	
+    class MELB_MH6M_SWAT {
         vItemSpace = 150;
         conditions = "";
         price = 2500;
@@ -9253,6 +9258,1350 @@ will modify the virtual space and the price of the vehicle, but other informatio
         conditions = "";
         price = 138000;
         textures[] = {};
+	};
+	
+	class red_charger_12_doc {
+        vItemSpace = 80;
+        conditions = "license_social_justiz";
+        price = 1500;
+        textures[] = {};
+	};
+	
+	class red_panamera_10_p_u_doc {
+        vItemSpace = 80;
+        conditions = "license_social_justiz";
+        price = 1500;
+        textures[] = {};
+	};
+	
+	class red_suburban_15_p_f_doc {
+        vItemSpace = 80;
+        conditions = "license_social_justiz";
+        price = 1500;
+        textures[] = {};
+	};
+	
+	class red_explorer_16_lr {
+        vItemSpace = 80;
+        conditions = "license_social_presse";
+        price = 1500;
+        textures[] = {};
+	};
+	
+	class red_taurus_10_lr {
+        vItemSpace = 80;
+        conditions = "license_social_presse";
+        price = 1500;
+        textures[] = {};
+	};
+	
+	class cl3_transit_lr {
+        vItemSpace = 80;
+        conditions = "license_social_presse";
+        price = 1500;
+        textures[] = {};
+	};
+	
+	class EC635_LR {
+        vItemSpace = 80;
+        conditions = "license_social_presse";
+        price = 1500;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_black {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_aqua {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_darkblue {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_blue {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_green {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_red {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_pink {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_yellow {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_orange {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_white {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_purple {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_darkgreen {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_fusion_10_darkred {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 95000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_black {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_aqua {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_darkblue {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_blue {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_green {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_red {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_pink {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_yellow {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_orange {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_white {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_purple {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_darkgreen {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class red_challenger_15_darkred {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class Jonzie_STI {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 65000;
+        textures[] = {};
+	};
+	
+	class red_f12_13_black {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 245000;
+        textures[] = {};
+	};
+	
+	class red_f12_13_aqua {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 245000;
+        textures[] = {};
+	};
+	
+	class red_f12_13_darkblue {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 245000;
+        textures[] = {};
+	};
+	
+	class red_f12_13_green {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 245000;
+        textures[] = {};
+	};
+	
+	class red_f12_13_red {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 245000;
+        textures[] = {};
+	};
+	
+	class red_f12_13_pink {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 245000;
+        textures[] = {};
+	};
+	
+	class red_f12_13_yellow {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 245000;
+        textures[] = {};
+	};
+	
+	class red_f12_13_orange {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 245000;
+        textures[] = {};
+	};
+	
+	class red_f12_13_white {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 245000;
+        textures[] = {};
+	};
+	
+	class red_f12_13_purple {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 245000;
+        textures[] = {};
+	};
+	
+	class red_f12_13_darkgreen {
+        vItemSpace = 80;
+        conditions = license_civ_driver"";
+        price = 245000;
+        textures[] = {};
+	};
+	
+	class red_f12_13_darkred {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 245000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_camo {
+        vItemSpace = 80;
+        conditions = "";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_q7_camo {
+        vItemSpace = 80;
+        conditions = "";
+        price = 70000;
+        textures[] = {};
+	};
+	
+	class cl3_r8_spyder_camo {
+        vItemSpace = 80;
+        conditions = "";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class cl3_r8_spyder_camo_urban {
+        vItemSpace = 80;
+        conditions = "";
+        price = 150000;
+        textures[] = {};
+	};
+	
+	class cl3_q7_camo_urban {
+        vItemSpace = 80;
+        conditions = "";
+        price = 70000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_camo_urban {
+        vItemSpace = 80;
+        conditions = "";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_e63_amg_camo_urban {
+        vItemSpace = 80;
+        conditions = "";
+        price = 100000;
+        textures[] = {};
+	};
+	
+	class cl3_bike_mountainskin_flame {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class cl3_bike_mountainskin_flame1 {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class cl3_bike_mountainskin_flame2 {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class cl3_bike_bmx_Roadskin_flame2 {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class cl3_bike_bmx_Roadskin_flame1 {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class cl3_bike_bmx_Roadskin_flame {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class cl3_bike_bike_Roadskin_flame {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class cl3_bike_bike_Roadskin_flame1 {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class cl3_bike_bike_Roadskin_flame2 {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class Mrshounka_Volkswagen_Touereg {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 55000;
+        textures[] = {};
+	};
+	
+	class cl3_r8_spyder_2tone1 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 160000;
+        textures[] = {};
+	};
+	
+	class cl3_r8_spyder_flame1 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 160000;
+        textures[] = {};
+	};
+	
+	class cl3_r8_spyder_2tone2 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 160000;
+        textures[] = {};
+	};
+	
+	class cl3_r8_spyder_2tone5 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 160000;
+        textures[] = {};
+	};
+	
+	class cl3_r8_spyder_2tone3 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 160000;
+        textures[] = {};
+	};
+	
+	class cl3_r8_spyder_2tone4 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 160000;
+        textures[] = {};
+	};
+	
+	class cl3_r8_spyder_flame2 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 160000;
+        textures[] = {};
+	};
+	
+	class civ_mondeo {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 30000;
+        textures[] = {};
+	};
+	
+	class cl3_mustang_65_cobra_pink_black {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 54000;
+        textures[] = {};
+	};
+
+	class cl3_s5_aqua {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_babypink {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_black {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_blue {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_burgundy {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_cardinal {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_dark_green {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_gold {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 115000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_green {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 115000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_grey {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_lavender {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_light_blue {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_light_yellow {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_lime {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_marina_blue {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_navy_blue {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_orange {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_purple {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_red {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_sand {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_silver {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_violet {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_white {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class cl3_s5_yellow {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class Mrshounka_mercedes_190_p_violet {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class Mrshounka_mercedes_190_p_civ {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class Mrshounka_mercedes_190_p_grise {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class Mrshounka_mercedes_190_p_noir {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class Mrshounka_mercedes_190_p_rouge {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class Mrshounka_mercedes_190_p_orange {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class Mrshounka_mercedes_190_p_jaune {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class TB_AudiQ7_Black {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 75000;
+        textures[] = {};
+	};
+	
+	class TB_AudiQ7_White {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 75000;
+        textures[] = {};
+	};
+	
+	class TB_AudiQ7_Red {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 75000;
+        textures[] = {};
+	};
+	
+	class TB_AudiQ7_Yellow {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 75000;
+        textures[] = {};
+	};
+	
+	class TB_AudiQ7_LimeGreen {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 75000;
+        textures[] = {};
+	};
+	
+	class TB_AudiQ7_Blue {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 75000;
+        textures[] = {};
+	};
+	
+	class TB_AudiQ7_Orange {
+        vItemSpace = 80;
+        conditions = "";
+        price = 100;
+        textures[] = {};
+	};
+	
+	class TB_AudiS5_Black {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 65000;
+        textures[] = {};
+	};
+	
+	class TB_AudiS5_White {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 65000;
+        textures[] = {};
+	};
+	
+	class TB_AudiS5_Red {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 65000;
+        textures[] = {};
+	};
+	
+	class TB_AudiS5_Yellow {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 65000;
+        textures[] = {};
+	};
+	
+	class TB_AudiS5_LimeGreen {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 65000;
+        textures[] = {};
+	};
+	
+	class TB_AudiS5_Blue {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 65000;
+        textures[] = {};
+	};
+	
+	class TB_AudiS5_Orange {
+        vItemSpace = 80;
+        conditions = "";
+        price = 100;
+        textures[] = {};
+	};
+	
+	class cl_skatea {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class cl_skateb {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class cl_skatec {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class cl_skated {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class sga_hover_board {
+        vItemSpace = 80;
+        conditions = "";
+        price = 15000;
+        textures[] = {};
+	};
+	
+	class sl_swatwagen {
+        vItemSpace = 80;
+        conditions = "license_cop_swat";
+        price = 5;
+        textures[] = {};
+	};
+	
+	class red_stretcher {
+        vItemSpace = 80;
+        conditions = "";
+        price = 250;
+        textures[] = {};
     };
+	
+	class suburban_swat_treppe {
+        vItemSpace = 80;
+        conditions = "license_cop_swat";
+        price = 5;
+        textures[] = {};
+	};
+	
+	class pop_yamaha_p_g {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 17000;
+        textures[] = {};
+	};
+	
+	class pop_yamaha_p_j {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 17000;
+        textures[] = {};
+	};
+	
+	class pop_yamaha_p_r {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 17000;
+        textures[] = {};
+	};
+	
+	class pop_yamaha_p_bf {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 17000;
+        textures[] = {};
+	};
+	
+	class pop_yamaha_p_noir {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 17000;
+        textures[] = {};
+	};
+	
+	class pop_yamaha_p {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 23000;
+        textures[] = {};
+	};
+	
+	class pop_quad_1 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 4000;
+        textures[] = {};
+	};
+	
+	class pop_seat_leon_blanco {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 8500;
+        textures[] = {};
+	};
+	
+	class pop_clio_civ_noir {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 8500;
+        textures[] = {};
+	};
+	
+	class pop_nemo_noir {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 8500;
+        textures[] = {};
+	};
+	
+	class pop_mercedes_190_p_civ {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 11500;
+        textures[] = {};
+	};
+	
+	class pop_astra_RS {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 7500;
+        textures[] = {};
+	};
+	
+	class pop_quadpop_r5_negro_1 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 10500;
+        textures[] = {};
+	};
+	
+	class pop_r5_azul {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 10500;
+        textures[] = {};
+	};
+	
+	class pop_mustang_azul {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 13500;
+        textures[] = {};
+	};
+	
+	class pop_mustang_rojo {
+        vItemSpace = 80;
+        conditions = "license_civ_trucking";
+        price = 13500;
+        textures[] = {};
+	};
+	
+	class pop_iveco_noir {
+        vItemSpace = 80;
+        conditions = "license_civ_trucking";
+        price = 85000;
+        textures[] = {};
+	};
+	
+	class pop_Man_TGX_negro {
+        vItemSpace = 80;
+        conditions = "license_civ_trucking";
+        price = 75000;
+        textures[] = {};
+	};
+	
+	class POP_renaultmagnum1 {
+        vItemSpace = 80;
+        conditions = "license_civ_trucking";
+        price = 80000;
+        textures[] = {};
+	};
+	
+	class POP_renaultmagnum {
+        vItemSpace = 80;
+        conditions = "license_civ_trucking";
+        price = 80000;
+        textures[] = {};
+	};
+	
+	class pop_volvo_camion {
+        vItemSpace = 80;
+        conditions = "license_civ_trucking";
+        price = 35000;
+        textures[] = {};
+	};
+	
+	class pop_Vandura_civ_equipoa {
+        vItemSpace = 80;
+        conditions = "license_civ_trucking";
+        price = 35000;
+        textures[] = {};
+	};
+	
+	class pop_JaguarP7Civil {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 120000;
+        textures[] = {};
+	};
+	
+	class pop_c63_2015_civ" {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 76000;
+        textures[] = {};
+	};
+	
+	class pop_clk {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 45000;
+        textures[] = {};
+	};
+	
+	class pop_panamera_azul {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 90000;
+        textures[] = {};
+	};
+	
+	class pop_panamera_negro {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 90000;
+        textures[] = {};
+	};
+	
+	class pop_cayenne_p_naranja {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 70000;
+        textures[] = {};
+	};
+	
+	class pop_cayenne_p_negro {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 70000;
+        textures[] = {};
+	};
+	
+	class pop_amg_GT1 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 120000;
+        textures[] = {};
+	};
+	
+	class pop_amg_GT_blanco {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 120000;
+        textures[] = {};
+	};
+	
+	class pop_bmw8 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 148000;
+        textures[] = {};
+	};
+	
+	class pop_bmw8_rojo {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 148000;
+        textures[] = {};
+	};
+	
+	class pop_bmw8_blanco {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 148000;
+        textures[] = {};
+	};
+	
+	class pop_bmw_x5 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 56000;
+        textures[] = {};
+	};
+	
+	class pop_alfa_romeo_159_negro {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 22000;
+        textures[] = {};
+	};
+	
+	class pop_a3_audiq7_bleu {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 60000;
+        textures[] = {};
+	};
+	
+	class pop_AudiA1_blanco {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class pop_AudiA1_D1_F {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class pop_AudiA1_D2 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class pop_AudiA1_D3 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class pop_AudiA1_D4 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class pop_AudiA1_D5 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class pop_agera_p {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 340000;
+        textures[] = {};
+	};
+	
+	class pop_agera_negro {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 340000;
+        textures[] = {};
+	};
+	
+	class pop_agera_azul {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 340000;
+        textures[] = {};
+	};
+	
+	class pop_agera_amarillo {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 340000;
+        textures[] = {};
+	};
+	
+	class pop_bmwm4 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 55000;
+        textures[] = {};
+	};
+	
+	class pop_bmwm4_D {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 55000;
+        textures[] = {};
+	};
+	
+	class pop_bmwm4_D1 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 55000;
+        textures[] = {};
+	};
+	
+	class pop_bmwm4_D2 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 55000;
+        textures[] = {};
+	};
+	
+	class pop_bmwm6_civ_t {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 89000;
+        textures[] = {};
+	};
+	
+	class pop_bmwm6_amarillo_t {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 89000;
+        textures[] = {};
+	};
+	
+	class pop_bmwm6_naranja_t {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 89000;
+        textures[] = {};
+	};
+	
+	class pop_chevrolet_rojo {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 55000;
+        textures[] = {};
+	};
+	
+	class pop_chevrolet_amarillo {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 55000;
+        textures[] = {};
+	};
+	
+	class pop_chevrolet_azul {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 55000;
+        textures[] = {};
+	};
+	
+	class pop_chevrolet_negro {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 55000;
+        textures[] = {};
+		};
+	
+	class pop_chevrolet_naranja {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 55000;
+        textures[] = {};
+	};
+	
+	class pop_chevroletc7_blanco {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 55000;
+        textures[] = {};
+	};
+	
+	class pop_chevroletc7_rojo {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 55000;
+        textures[] = {};
+	};
+	
+	class pop_dodge15_civ_negro_t {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 65000;
+        textures[] = {};
+	};
+	
+	class pop_porche918 {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 140000;
+        textures[] = {};
+	};
+	
+	class pop_488GT3Civil {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 180000;
+        textures[] = {};
+	};
+	
+	class pop_bmw_1series_noir {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class pop_bmw_1series_bleufonce {
+        vItemSpace = 80;
+        conditions = "license_civ_driver";
+        price = 24000;
+        textures[] = {};
+	};
+	
+	class pop_grua {
+        vItemSpace = 80;
+        conditions = "";
+        price = 100;
+        textures[] = {};
+	};
 };
 

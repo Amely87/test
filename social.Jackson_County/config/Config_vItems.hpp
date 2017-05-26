@@ -160,7 +160,21 @@ class VirtualShops {
         name = "STR_MAR_LAC_Item_Shop";
         side = "lac";
         conditions = "";
-        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "fuelFull", "peach","nothammer","wheel"};
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach","nothammer","wheel"};
+	};
+	
+    class presse_market {
+        name = "STR_MAR_Presse_Item_Shop";
+        side = "civ";
+        conditions = "license_civ_presse";
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach"};
+	};
+	
+    class justiz_market {
+        name = "STR_MAR_Justiz_Item_Shop";
+        side = "civ";
+        conditions = "license_civ_justiz";
+        items[] = { "waterBottle", "rabbit", "apple", "redgull", "tbacon", "toolkit", "fuelFull", "peach"};
     };
 };
 
